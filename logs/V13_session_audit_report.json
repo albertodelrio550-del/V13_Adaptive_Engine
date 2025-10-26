@@ -1,0 +1,221 @@
+{
+  "pre_launch": {
+    "timestamp": "2025-10-24 02:15:10",
+    "module_hashes": {
+      "V13_LaunchSequence.py": "622b8a4fb3b527d2",
+      "V13_TelemetryFusion.py": "dff2d93207a690e0",
+      "V13_AdaptiveCycle.py": "62d7171728895d70",
+      "V13_RiskSentinel.py": "56c98defa9e2a2f3",
+      "V13_DoctrineFeedbackLoop.py": "671dab296f9d25ad",
+      "V13_PerformanceTracker.py": "5f69d77e43b7c1f4"
+    },
+    "log_status": {
+      "V13_cycle_status.log": "0 bytes",
+      "V13_risk_status.log": "NOT FOUND",
+      "V13_commander_bridge.log": "NOT FOUND",
+      "V13_performance_tracker.log": "NOT FOUND"
+    },
+    "status": "READY"
+  },
+  "sessions": [
+    {
+      "session_id": "V13_20251024_021510",
+      "started_at": "2025-10-24T01:15:10.689772+00:00",
+      "ended_at": "2025-10-24T07:15:20.002768+00:00",
+      "duration_seconds": 21609,
+      "events": {
+        "total": 12,
+        "by_type": {
+          "SESSION_START": 1,
+          "HASH_VERIFIED": 9,
+          "SESSION_END": 1,
+          "AUDIT_SEAL": 1
+        },
+        "timeline": [
+          {
+            "Timestamp": "2025-10-24 02:15:10",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "SESSION_START",
+            "Status": "OK",
+            "Details": "Session initialized."
+          },
+          {
+            "Timestamp": "2025-10-24 02:15:10",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "HASH_VERIFIED",
+            "Status": "OK",
+            "Details": "TradeA_Assassins_V13"
+          },
+          {
+            "Timestamp": "2025-10-24 02:15:10",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "HASH_VERIFIED",
+            "Status": "OK",
+            "Details": "TradeB_Avengers_V13"
+          },
+          {
+            "Timestamp": "2025-10-24 02:15:10",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "HASH_VERIFIED",
+            "Status": "OK",
+            "Details": "FABIODOCTRINE"
+          },
+          {
+            "Timestamp": "2025-10-24 02:15:10",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "HASH_VERIFIED",
+            "Status": "OK",
+            "Details": "TRADERKANEDOCTRINE"
+          },
+          {
+            "Timestamp": "2025-10-24 02:15:10",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "HASH_VERIFIED",
+            "Status": "OK",
+            "Details": "MARCODOCTRINE"
+          },
+          {
+            "Timestamp": "2025-10-24 02:15:10",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "HASH_VERIFIED",
+            "Status": "OK",
+            "Details": "TRADERMAYNEDOCTRINE"
+          },
+          {
+            "Timestamp": "2025-10-24 02:15:10",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "HASH_VERIFIED",
+            "Status": "OK",
+            "Details": "TANJADOCTRINE"
+          },
+          {
+            "Timestamp": "2025-10-24 02:15:10",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "HASH_VERIFIED",
+            "Status": "OK",
+            "Details": "TGCAPITALDOCTRINE"
+          },
+          {
+            "Timestamp": "2025-10-24 02:15:10",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "HASH_VERIFIED",
+            "Status": "OK",
+            "Details": "UMARASHRAFDOCTRINE"
+          },
+          {
+            "Timestamp": "2025-10-24 08:15:20",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "SESSION_END",
+            "Status": "OK",
+            "Details": "Session completed successfully."
+          },
+          {
+            "Timestamp": "2025-10-24 08:15:20",
+            "Session_ID": "V13_20251024_021510",
+            "Event": "AUDIT_SEAL",
+            "Status": "OK",
+            "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"
+          }
+        ]
+      },
+      "capital_start": 9997.5615253,
+      "capital_end": 9997.5615253,
+      "realized_pnl": -110.73925799999972,
+      "order_flow": {
+        "orders": {
+          "intents": 0,
+          "validated": 0,
+          "routed": 0,
+          "posted": 0,
+          "ack_pending": 0,
+          "ack_accepted": 0,
+          "ack_rejected": 0,
+          "filled": 0,
+          "closed": 0,
+          "risk_ok": 0,
+          "risk_denied": 0,
+          "unique_order_ids": 0
+        },
+        "symbols": [],
+        "blocks": [],
+        "recent": [],
+        "notes": [
+          "No order flow detected during session window."
+        ]
+      },
+      "latency": {
+        "samples": 0,
+        "since_intent_avg_ms": 0.0,
+        "since_intent_max_ms": 0.0,
+        "since_ack_avg_ms": 0.0,
+        "since_ack_max_ms": 0.0,
+        "notes": [
+          "No latency samples captured within session window."
+        ]
+      },
+      "doctrine_alerts": {
+        "count": 0,
+        "entries": [],
+        "notes": [
+          "No doctrine alerts during session window."
+        ]
+      },
+      "overrides": {
+        "manual_override": {
+          "active": true,
+          "payload": {
+            "phase": "aggressive",
+            "S_t": 0.5,
+            "Drawdown": "0%",
+            "mode": "PAPER",
+            "active": true,
+            "timestamp": "2025-10-23T23:00:00.000000"
+          }
+        },
+        "kill_switch": {
+          "armed": false,
+          "payload": {}
+        }
+      },
+      "performance": {
+        "status": {
+          "symbol": "BTCUSDT",
+          "PnL": 0.0,
+          "WinRate": 0.0,
+          "Updated": 1761290113
+        },
+        "latest_metrics": {
+          "date": "2025-10-23",
+          "metrics": {
+            "sharpe": 0.8765,
+            "win_rate": 80.0,
+            "average_lock_profit": 0.11,
+            "correlation": 0.6,
+            "mean_latency_ms": 21.97,
+            "max_drawdown": 0.01,
+            "slippage_mean": 0.019,
+            "slippage_p95": 0.03,
+            "trades": 5
+          },
+          "generated_at": "2025-10-23T08:55:42.462397+00:00"
+        },
+        "delta_vs_start": {
+          "PnL": 0.0,
+          "WinRate": 0.0,
+          "trades": 0
+        }
+      },
+      "alpaca_data": {
+        "capital_start": 0.0,
+        "capital_end": 0.0,
+        "realized_pnl": 0.0,
+        "activities": [],
+        "notes": []
+      },
+      "learning_notes": [
+        "No order intents detected; confirm command pipeline.",
+        "Manual override stayed active; capture operator rationale."
+      ]
+    }
+  ]
+}

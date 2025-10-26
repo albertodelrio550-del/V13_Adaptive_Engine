@@ -1,0 +1,12 @@
+{
+  "version": "V13-intel-1.0",
+  "sources": {
+    "fabio_playbook": {
+      "file": "V13/intel/Fabio_Playbook.pdf",
+      "tags": ["balance", "imbalance", "aggression", "auction"],
+      "status": "parsed",
+      "influences": ["Ball1", "Ball3", "Ball4", "Ball6"]
+    }
+  },
+  "last_update": "2025-10-18"
+}

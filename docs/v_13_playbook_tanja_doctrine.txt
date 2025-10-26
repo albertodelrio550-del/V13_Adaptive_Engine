@@ -1,0 +1,158 @@
+# ============================================================
+# V13 PLAYBOOK — TANJA DOCTRINE INTEGRATION FILE
+# Build: V13.2025.10.21.01
+# Mode: PAPER (Simulated Data)
+# Phase: 5 — AMD Cycle Integration
+# ============================================================
+
+1. DOCTRINE OVERVIEW
+------------------------------------------------------------
+Origin: Tanja Trades “AMD (Accumulation–Manipulation–Distribution)” Playbook — Apr 2025.
+Focus: Market Phases & Liquidity Dynamics.
+Purpose: Integrate the AMD cycle model into V13’s adaptive intelligence for phase recognition,
+trade selection, and risk modulation.
+
+The doctrine formalizes how V13 interprets the **three-phase market sequence** —
+Accumulation → Manipulation → Distribution — and modifies system behavior accordingly.
+
+------------------------------------------------------------
+2. CORE PRINCIPLES
+------------------------------------------------------------
+Phase Logic:
+    • **Accumulation** — Market builds liquidity through range-bound chop. Low conviction, low probability.
+    • **Manipulation** — Stop runs or false breakouts occur. Emotional traps form.
+    • **Distribution** — Real move confirms, strong directional intent, and clean displacement.
+
+Doctrine Objective:
+    Trade **only** when Distribution is confirmed.
+    Stay **flat** during Accumulation.
+    **Observe** Manipulation but never engage inside it.
+
+------------------------------------------------------------
+3. SYSTEM INTEGRATION MAP
+------------------------------------------------------------
+Module: V13_AdaptiveCycle
+    → Reads phase signals from TelemetryFusion (volatility + displacement + range compression).
+    → Classifies environment as Accumulation, Manipulation, or Distribution.
+    → Enables or disables trade execution accordingly.
+
+Module: V13_RiskSentinel
+    → Dynamically scales exposure per phase.
+        Accumulation: risk = 0.2%  (defensive)
+        Manipulation: risk = 0.1%  (standby mode)
+        Distribution: risk = 0.5%  (offensive)
+    → Caps MaxDD = 2.0% session total.
+
+Module: V13_TelemetryFusion
+    → Monitors economic event calendar (CPI, NFP, FOMC, PPI).
+    → Links volatility spikes to phase transitions.
+    → Marks time-of-day risk windows (NY 09:50–10:10 / 10:50–11:10 ET).
+
+Module: V13_DoctrineFeedbackLoop
+    → Logs phase recognition accuracy.
+    → Tracks trader consistency and fatigue across phases.
+    → Adjusts aggression weighting based on performance history.
+
+------------------------------------------------------------
+4. PHASE TRANSLATION
+------------------------------------------------------------
+ACCUMULATION → Manipulation → Distribution (AMD Cycle)
+------------------------------------------------------------
+Phase 1: **Accumulation**
+    - Sideways range, low volatility, weak conviction.
+    - Objective: Capital preservation.
+    - Behavior: System disables scalp entries.
+    - Action: Observe and map liquidity build-up.
+
+Phase 2: **Manipulation**
+    - Sudden liquidity sweeps (above/below range).
+    - Objective: Confirmation-only monitoring.
+    - Behavior: Alert Commander of potential trap formation.
+    - Action: Wait for displacement confirmation — no entries.
+
+Phase 3: **Distribution**
+    - Confirmed break of range, displacement candle + fair value gap.
+    - Objective: Execute with conviction.
+    - Behavior: Activate primary trade models (Fabio & Marco Doctrines).
+    - Action: Deploy trades aligned with new trend direction.
+
+------------------------------------------------------------
+5. ADAPTIVE LOGIC FLOW (V13_AdaptiveCycle)
+------------------------------------------------------------
+[Phase Detection Algorithm — PAPER MODE]
+1. Detect volatility compression period (σ < 0.5% over 30m) → Flag ACCUMULATION.
+2. Detect spike > 1.5× baseline volatility → Flag MANIPULATION.
+3. Detect displacement + structure break beyond range high/low → Flag DISTRIBUTION.
+4. Confirm via TelemetryFusion order flow delta alignment.
+5. AdaptiveCycle sets internal variable → phase_state = {A, M, D}.
+6. DoctrineFeedbackLoop adjusts aggression & locks risk profile accordingly.
+
+------------------------------------------------------------
+6. RISK SENTINEL ALIGNMENT
+------------------------------------------------------------
+V13_RiskSentinel enforces:
+    - Phase-based risk throttling.
+    - Session cooldown after Manipulation phase losses (15 min freeze).
+    - Stop placement anchored beyond manipulation wick (1–2 tick buffer).
+    - Max 2 trades allowed during Distribution per cycle.
+
+------------------------------------------------------------
+7. EXECUTION & ENTRY RULES
+------------------------------------------------------------
+Entry Permission Flow:
+    - Only execute inside Distribution phase.
+    - Confirm displacement structure (Fair Value Gap).
+    - Entry on retracement into valid FVG or breakout retest.
+    - Avoid trades during accumulation or before major scheduled news.
+
+Stop Management:
+    - Place beyond Manipulation extreme.
+    - Tighten only after +2R profit achieved.
+    - No early breakeven unless Distribution confirmed fully.
+
+------------------------------------------------------------
+8. PERFORMANCE TARGETS
+------------------------------------------------------------
+Expected PAPER Behavior:
+    - Win rate target: 65–75% under normal volatility.
+    - Average R:R: 1:3 → 1:5.
+    - Drawdown recovery cycles ≤ 2 per session.
+    - Idle time ratio (no-trade phases) ≈ 60% (discipline control).
+
+------------------------------------------------------------
+9. PSYCHOLOGICAL & BEHAVIORAL FLAGS
+------------------------------------------------------------
+Behavior encoding:
+    - patience.flag = TRUE  → Avoid impulsive trading during accumulation.
+    - fomo.guard = ACTIVE   → Blocks trades triggered by fear-of-missing-move.
+    - overtrade.block = ENABLED → Enforces 2-trade limit per Distribution cycle.
+    - macro.awareness = ENABLED → Syncs news events for safe engagement.
+
+------------------------------------------------------------
+10. SIMULATION CHECKPOINTS
+------------------------------------------------------------
+PAPER Verification Steps:
+    1. Simulate 3 full AMD cycles (Acc → Man → Dist).
+    2. Confirm AdaptiveCycle phase detection consistency ≥ 90%.
+    3. Execute trades only during Distribution.
+    4. Log results via PerformanceTracker and SessionAudit.
+    5. Verify RiskSentinel caps remain ≤ 2% DD.
+
+Expected PAPER Results:
+    - Net positive outcome with phase-aware filters.
+    - Increased accuracy via timing discipline.
+    - Reduction in emotional trades (FOMO events).
+
+------------------------------------------------------------
+11. INTEGRATION SUMMARY
+------------------------------------------------------------
+✅ AMD cycle logic integrated into AdaptiveCycle.
+✅ RiskSentinel dynamically adjusts exposure by phase.
+✅ TelemetryFusion links to volatility & event data.
+✅ FeedbackLoop tracks phase-trade consistency.
+✅ PAPER verification authorized.
+
+Doctrine Status: ACTIVE (PAPER Mode)
+
+"Patience protects; manipulation teaches; distribution rewards."
+# ============================================================

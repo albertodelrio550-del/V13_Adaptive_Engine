@@ -1,0 +1,7 @@
+{
+    "Stage": 1,
+    "MaxRiskPercent": 0.1,
+    "CooldownMinutes": 30,
+    "ManualOverride": "DISABLED",
+    "Timestamp": "2025-10-21T02:43:25.752449"
+}

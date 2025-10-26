@@ -1,0 +1,76 @@
+# ============================================================
+# V13 Adaptive Manual Trading Engine — Telemetry Configuration
+# Build_ID: V13.2025.10.20.01
+# Location: /Videos/bohrn 2025/trade/V13/data/Telemetry_Config.yaml
+# ------------------------------------------------------------
+# Defines feed parameters, update intervals, and telemetry packet structure.
+# ============================================================
+
+core:
+  mode: PAPER
+  version: V13.2025.10.20.01
+  heartbeat_sec: 15          # base data refresh interval
+  timestamp_format: "%Y-%m-%d %H:%M:%S"
+  timezone: UTC+0
+
+feeds:
+  default_exchange: Binance
+  default_pair: BTC/USDT
+  active_pairs:
+    - BTC/USDT
+    - ETH/USDT
+    - SOL/USDT
+
+  timeframes:
+    - 1m
+    - 5m
+    - 15m
+
+  latency_tolerance_ms: 400
+  connection_timeout_sec: 5
+  retry_attempts: 3
+  rest_fallback_enabled: true
+
+packet_structure:
+  fields:
+    - timestamp
+    - symbol
+    - bid
+    - ask
+    - last
+    - volume
+    - change_pct
+    - spread
+  precision:
+    price: 2
+    volume: 4
+  compression: zlib
+  encoding: utf-8
+
+simulation:
+  enabled: true
+  tick_interval_ms: 250
+  slippage_model: linear
+  fee_model: fixed_0.075%
+  source_script: ../core/MockFeed_Generator.py
+
+error_handling:
+  on_feed_timeout: retry
+  on_data_corruption: discard
+  on_packet_loss: estimate
+  on_system_error: halt
+
+logging:
+  telemetry_log: ../logs/Telemetry_Log.csv
+  error_log: ../logs/CrashGuard_EventLog.csv
+  backup_folder: ../logs/Backup_Feed/
+  log_rotation_days: 7
+
+verification:
+  checksum_enabled: true
+  auto_reconnect: true
+  watchdog_enabled: true
+
+# ============================================================
+# END OF FILE
+# ============================================================

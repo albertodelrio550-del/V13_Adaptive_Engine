@@ -1,0 +1,54 @@
+{
+  "generated_at": "2025-10-23T01:46:28.597474+00:00",
+  "lookback_days": 30,
+  "results": [
+    {
+      "doctrine_id": "ASSASSIN_BASELINE",
+      "parameters": {
+        "risk_factor": 1.0,
+        "assassin_bias": 0.7,
+        "avenger_bias": 0.3
+      },
+      "total_pnl": -0.4167,
+      "daily_pnl": {
+        "20251020": -0.1389,
+        "20251021": -0.1389,
+        "20251022": -0.1389
+      },
+      "sharpe": 0.0,
+      "max_drawdown": 0.4167,
+      "volatility": 0.0,
+      "fitness": -0.0417,
+      "missing_days": [
+        "20251016",
+        "20251017",
+        "20251018",
+        "20251019"
+      ]
+    },
+    {
+      "doctrine_id": "AVENGER_EXTENDED",
+      "parameters": {
+        "risk_factor": 0.8,
+        "assassin_bias": 0.4,
+        "avenger_bias": 0.6
+      },
+      "total_pnl": -0.6474,
+      "daily_pnl": {
+        "20251020": -0.2158,
+        "20251021": -0.2158,
+        "20251022": -0.2158
+      },
+      "sharpe": 0.0,
+      "max_drawdown": 0.6474,
+      "volatility": 0.0,
+      "fitness": -0.0647,
+      "missing_days": [
+        "20251016",
+        "20251017",
+        "20251018",
+        "20251019"
+      ]
+    }
+  ]
+}

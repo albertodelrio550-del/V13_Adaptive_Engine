@@ -1,0 +1,18 @@
+{
+  "build_id": "V13.2025.10.20.01",
+  "description": "Registry of all daily performance archives for V13 engine.",
+  "records": [],
+  "schema": {
+    "fields": [
+      "timestamp",
+      "session_id",
+      "mode",
+      "profit_usd",
+      "drawdown_usd",
+      "ladder_lock",
+      "runtime_min",
+      "status"
+    ]
+  },
+  "last_updated": "none"
+}

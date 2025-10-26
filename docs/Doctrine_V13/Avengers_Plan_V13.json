@@ -1,0 +1,55 @@
+{
+  "Doctrine_ID": "TradeB_Avengers_V13",
+  "Version": "V13.0",
+  "Doctrine_Type": "Trend / Runner Operations",
+  "Doctrine_Name": "Avengers_Plan_V13",
+  "Core_Trade": "Trade B",
+  "Mission": "Long-term coordinated trades designed to capture extended market moves (+20 → +50 USD) with strong risk management and adaptive trailing.",
+  "Hierarchy": {
+    "Major": {
+      "Role": "Commander",
+      "Capital_Percent": "15–20",
+      "Function": "Strategic oversight, risk management, and session coordination."
+    },
+    "Specialists": {
+      "Balls": "6 → 8",
+      "Capital_Percent": "5–10 each",
+      "Function": "Trend analysis, timing of entries, and large move identification."
+    },
+    "Privates": {
+      "Balls": "1 → 5",
+      "Capital_Percent": "1–3 each",
+      "Function": "Execution layer handling live entries, stops, and adjustments."
+    }
+  },
+  "Tactics": {
+    "Primary_Tool": "Trade B (Runner)",
+    "Entry": "Breakout or deep correction confirmation",
+    "Target_USD": "+20 → +50",
+    "Stop_Loss_USD": "10 → 20 depending on volatility",
+    "Max_Drawdown": "-2% capital per session",
+    "Profit_Assurance_Ladder": {
+      "Lock_20_percent": "after +$50 profit",
+      "Tighten_80_percent": "after +$100 profit"
+    }
+  },
+  "Operational_Rules": {
+    "Focus": "Macro momentum and trend continuity",
+    "Early_Exit": "On sideways or stalled markets",
+    "Super_Update": "Tightens stops during high momentum",
+    "Major_Intervention": "Allowed to reallocate risk dynamically"
+  },
+  "Behavior_Mode": {
+    "Aggression": "medium",
+    "Duration": "long",
+    "Execution": "semi-auto",
+    "Risk_Tolerance": "controlled"
+  },
+  "Integration_Hooks": {
+    "Telemetry": "V13_TelemetryFusion",
+    "Risk": "V13_RiskSentinel",
+    "Performance": "V13_PerformanceTracker"
+  },
+  "Doctrine_Summary": "The Avengers represent the strategic arm of the V13 engine — balancing risk and reward to achieve sustained growth across sessions. They reinforce system stability while the Assassins secure quick wins.",
+  "Archive_Note": "Merged and refined from V12.1 v4 and V12.1 v4 Expanded. Dynamic version created for V13 DDS."
+}

@@ -1,0 +1,14 @@
+
+[Validation Run — 2025-10-21T02:46:45.300986]
+{
+    "modules": {
+        "core/V13_DoctrineRegistry_Init.py": "OK",
+        "core/V13_AdaptiveDoctrineMatrix.py": "OK",
+        "core/V13_DoctrineFeedbackLoop.py": "OK",
+        "core/V13_CommanderRiskSync.py": "OK",
+        "core/V13_VisualMonitor.py": "OK"
+    },
+    "data_status": "Missing: Performance",
+    "timestamp": "2025-10-21T02:46:44.471787"
+}
+Simulated State: {"active_doctrine": "Marco", "volatility_index": 1.6, "TSI_stage": 3, "RiskCap": 0.5, "FeedbackWeight": 0.82, "VisualStatus": "Operational"}

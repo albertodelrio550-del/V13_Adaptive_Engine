@@ -1,0 +1,606 @@
+{
+  "acknowledgments": [
+    {
+      "order_id": "TEST-BLOCK2-6",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:47.066857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-1ff54d01-abd6-443c-ba87-2d85a0c47e10",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.013857+00:00",
+        "block_id": "BLOCK2"
+      },
+      "block_id": "BLOCK2"
+    },
+    {
+      "order_id": "TEST-BLOCK2-7",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:47.131857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-f104a09e-c11a-4e5d-810e-cc8cc11e1cd5",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.127859+00:00",
+        "block_id": "BLOCK2"
+      },
+      "block_id": "BLOCK2"
+    },
+    {
+      "order_id": "TEST-BLOCK2-7",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:47.158858+00:00",
+      "meta": {
+        "alpaca_id": "ALP-f104a09e-c11a-4e5d-810e-cc8cc11e1cd5",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.127859+00:00",
+        "block_id": "BLOCK2"
+      },
+      "block_id": "BLOCK2"
+    },
+    {
+      "order_id": "TEST-BLOCK2-7",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:47.182858+00:00",
+      "meta": {
+        "alpaca_id": "ALP-f104a09e-c11a-4e5d-810e-cc8cc11e1cd5",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.127859+00:00",
+        "block_id": "BLOCK2"
+      },
+      "block_id": "BLOCK2"
+    },
+    {
+      "order_id": "TEST-BLOCK2-8",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:47.268858+00:00",
+      "meta": {
+        "alpaca_id": "ALP-75270496-d4eb-4c0f-9ed0-8e2c97466fa4",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.263857+00:00",
+        "block_id": "BLOCK2"
+      },
+      "block_id": "BLOCK2"
+    },
+    {
+      "order_id": "TEST-BLOCK2-8",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:47.293857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-75270496-d4eb-4c0f-9ed0-8e2c97466fa4",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.263857+00:00",
+        "block_id": "BLOCK2"
+      },
+      "block_id": "BLOCK2"
+    },
+    {
+      "order_id": "TEST-BLOCK2-8",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:47.313857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-75270496-d4eb-4c0f-9ed0-8e2c97466fa4",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.263857+00:00",
+        "block_id": "BLOCK2"
+      },
+      "block_id": "BLOCK2"
+    },
+    {
+      "order_id": "TEST-BLOCK2-9",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:47.370859+00:00",
+      "meta": {
+        "alpaca_id": "ALP-9a35c330-e48b-403c-b7c2-3ee5caa13435",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.367859+00:00",
+        "block_id": "BLOCK2"
+      },
+      "block_id": "BLOCK2"
+    },
+    {
+      "order_id": "TEST-BLOCK2-9",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:47.390858+00:00",
+      "meta": {
+        "alpaca_id": "ALP-9a35c330-e48b-403c-b7c2-3ee5caa13435",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.367859+00:00",
+        "block_id": "BLOCK2"
+      },
+      "block_id": "BLOCK2"
+    },
+    {
+      "order_id": "TEST-BLOCK2-9",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:47.410856+00:00",
+      "meta": {
+        "alpaca_id": "ALP-9a35c330-e48b-403c-b7c2-3ee5caa13435",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.367859+00:00",
+        "block_id": "BLOCK2"
+      },
+      "block_id": "BLOCK2"
+    },
+    {
+      "order_id": "TEST-BLOCK3-0",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:47.465856+00:00",
+      "meta": {
+        "alpaca_id": "ALP-c595271e-de9c-4984-9cc3-f5335ba50ba1",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.463855+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-0",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:47.485856+00:00",
+      "meta": {
+        "alpaca_id": "ALP-c595271e-de9c-4984-9cc3-f5335ba50ba1",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.463855+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-0",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:47.505860+00:00",
+      "meta": {
+        "alpaca_id": "ALP-c595271e-de9c-4984-9cc3-f5335ba50ba1",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.463855+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-1",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:47.572858+00:00",
+      "meta": {
+        "alpaca_id": "ALP-f5512882-fa41-44f9-8284-1165c4d12993",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.569870+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-1",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:47.593876+00:00",
+      "meta": {
+        "alpaca_id": "ALP-f5512882-fa41-44f9-8284-1165c4d12993",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.569870+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-1",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:47.613874+00:00",
+      "meta": {
+        "alpaca_id": "ALP-f5512882-fa41-44f9-8284-1165c4d12993",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.569870+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-2",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:47.671860+00:00",
+      "meta": {
+        "alpaca_id": "ALP-ab2bbc2c-9b23-4969-a4f8-75a74fc4928b",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.668857+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-2",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:47.695858+00:00",
+      "meta": {
+        "alpaca_id": "ALP-ab2bbc2c-9b23-4969-a4f8-75a74fc4928b",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.668857+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-2",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:47.719857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-ab2bbc2c-9b23-4969-a4f8-75a74fc4928b",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.668857+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-3",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:47.784856+00:00",
+      "meta": {
+        "alpaca_id": "ALP-45b28f38-c331-4e1d-8fce-4286a15f775b",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.781854+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-3",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:47.805859+00:00",
+      "meta": {
+        "alpaca_id": "ALP-45b28f38-c331-4e1d-8fce-4286a15f775b",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.781854+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-3",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:47.829856+00:00",
+      "meta": {
+        "alpaca_id": "ALP-45b28f38-c331-4e1d-8fce-4286a15f775b",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.781854+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-4",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:47.893858+00:00",
+      "meta": {
+        "alpaca_id": "ALP-4b5e6888-9813-43ba-9d8b-396de7446c52",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.890854+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-4",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:47.914857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-4b5e6888-9813-43ba-9d8b-396de7446c52",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.890854+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-4",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:47.937856+00:00",
+      "meta": {
+        "alpaca_id": "ALP-4b5e6888-9813-43ba-9d8b-396de7446c52",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:47.890854+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-5",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:48.007857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-bd4f4369-e073-4432-a3cd-31df0f21869d",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.002857+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-5",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:48.030859+00:00",
+      "meta": {
+        "alpaca_id": "ALP-bd4f4369-e073-4432-a3cd-31df0f21869d",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.002857+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-5",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:48.058857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-bd4f4369-e073-4432-a3cd-31df0f21869d",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.002857+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-6",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:48.124858+00:00",
+      "meta": {
+        "alpaca_id": "ALP-e66e4c48-5bda-4d2a-98a8-4b558c22a21f",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.120858+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-6",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:48.148857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-e66e4c48-5bda-4d2a-98a8-4b558c22a21f",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.120858+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-6",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:48.168856+00:00",
+      "meta": {
+        "alpaca_id": "ALP-e66e4c48-5bda-4d2a-98a8-4b558c22a21f",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.120858+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-7",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:48.229856+00:00",
+      "meta": {
+        "alpaca_id": "ALP-4d53131a-04e4-4927-aab1-e368b4fed849",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.226857+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-7",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:48.249857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-4d53131a-04e4-4927-aab1-e368b4fed849",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.226857+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-7",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:48.273857+00:00",
+      "meta": {
+        "alpaca_id": "ALP-4d53131a-04e4-4927-aab1-e368b4fed849",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.226857+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-8",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:48.334859+00:00",
+      "meta": {
+        "alpaca_id": "ALP-f9d206e7-63ad-4794-bb5f-49ea37cd2a62",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.331859+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-8",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:48.353856+00:00",
+      "meta": {
+        "alpaca_id": "ALP-f9d206e7-63ad-4794-bb5f-49ea37cd2a62",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.331859+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-8",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:48.373859+00:00",
+      "meta": {
+        "alpaca_id": "ALP-f9d206e7-63ad-4794-bb5f-49ea37cd2a62",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.331859+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-9",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:48.430871+00:00",
+      "meta": {
+        "alpaca_id": "ALP-de396199-6be8-4bf9-8a27-34b7cd5fff7b",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.428866+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-9",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:48.451668+00:00",
+      "meta": {
+        "alpaca_id": "ALP-de396199-6be8-4bf9-8a27-34b7cd5fff7b",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.428866+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "TEST-BLOCK3-9",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:48.470682+00:00",
+      "meta": {
+        "alpaca_id": "ALP-de396199-6be8-4bf9-8a27-34b7cd5fff7b",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.428866+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "EXP-SPY-1",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:48.597425+00:00",
+      "meta": {
+        "alpaca_id": "ALP-5b681fe5-cbbf-46ef-91a2-868fd5ec0ad8",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.594425+00:00",
+        "block_id": "BLOCK1"
+      },
+      "block_id": "BLOCK1"
+    },
+    {
+      "order_id": "EXP-SPY-1",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:48.625424+00:00",
+      "meta": {
+        "alpaca_id": "ALP-5b681fe5-cbbf-46ef-91a2-868fd5ec0ad8",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.594425+00:00",
+        "block_id": "BLOCK1"
+      },
+      "block_id": "BLOCK1"
+    },
+    {
+      "order_id": "EXP-SPY-1",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:48.649427+00:00",
+      "meta": {
+        "alpaca_id": "ALP-5b681fe5-cbbf-46ef-91a2-868fd5ec0ad8",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.594425+00:00",
+        "block_id": "BLOCK1"
+      },
+      "block_id": "BLOCK1"
+    },
+    {
+      "order_id": "EXP-AAPL-1",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:48.714425+00:00",
+      "meta": {
+        "alpaca_id": "ALP-db706072-873c-4b4a-a8f0-fa66da4dae4e",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.710424+00:00",
+        "block_id": "BLOCK1"
+      },
+      "block_id": "BLOCK1"
+    },
+    {
+      "order_id": "EXP-AAPL-1",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:48.745428+00:00",
+      "meta": {
+        "alpaca_id": "ALP-db706072-873c-4b4a-a8f0-fa66da4dae4e",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.710424+00:00",
+        "block_id": "BLOCK1"
+      },
+      "block_id": "BLOCK1"
+    },
+    {
+      "order_id": "EXP-AAPL-1",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:48.774427+00:00",
+      "meta": {
+        "alpaca_id": "ALP-db706072-873c-4b4a-a8f0-fa66da4dae4e",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.710424+00:00",
+        "block_id": "BLOCK1"
+      },
+      "block_id": "BLOCK1"
+    },
+    {
+      "order_id": "EXP-TSLA-1",
+      "state": "ACK_ACCEPTED",
+      "timestamp": "2025-10-23T01:26:48.936424+00:00",
+      "meta": {
+        "alpaca_id": "ALP-7323ad98-59df-4479-bab2-34cbd22c2ba7",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.933425+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "EXP-TSLA-1",
+      "state": "FILLED",
+      "timestamp": "2025-10-23T01:26:48.957425+00:00",
+      "meta": {
+        "alpaca_id": "ALP-7323ad98-59df-4479-bab2-34cbd22c2ba7",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.933425+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "EXP-TSLA-1",
+      "state": "CLOSED",
+      "timestamp": "2025-10-23T01:26:48.978424+00:00",
+      "meta": {
+        "alpaca_id": "ALP-7323ad98-59df-4479-bab2-34cbd22c2ba7",
+        "status": "filled",
+        "submitted_at": "2025-10-23T01:26:48.933425+00:00",
+        "block_id": "BLOCK3"
+      },
+      "block_id": "BLOCK3"
+    },
+    {
+      "order_id": "EXP-SPY-2",
+      "state": "ACK_REJECTED",
+      "timestamp": "2025-10-23T01:26:48.999425+00:00",
+      "meta": {
+        "source": "risk_gate",
+        "symbol": "SPY",
+        "intent_value": 30.0,
+        "gross_now": 175.0,
+        "max_gross": 180.0,
+        "block_id": "BLOCK1"
+      },
+      "block_id": "BLOCK1"
+    }
+  ]
+}

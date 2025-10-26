@@ -1,0 +1,25 @@
+{
+  "generated_at": "2025-10-23T01:46:28.586475+00:00",
+  "blocks": [
+    {
+      "block_id": "BLOCK1",
+      "sharpe": 0.635,
+      "win_rate": 66.67,
+      "average_trade_duration": 33.33,
+      "mean_latency": 373.33,
+      "max_drawdown": 0.01,
+      "slippage_mean": 0.015,
+      "slippage_p95": 0.02
+    },
+    {
+      "block_id": "BLOCK2",
+      "sharpe": 2.0,
+      "win_rate": 100.0,
+      "average_trade_duration": 37.5,
+      "mean_latency": 290.0,
+      "max_drawdown": 0.0,
+      "slippage_mean": 0.011,
+      "slippage_p95": 0.012
+    }
+  ]
+}

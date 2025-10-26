@@ -1,0 +1,173 @@
+# ============================================================
+# V13 PLAYBOOK — UMAR ASHRAF DOCTRINE INTEGRATION FILE
+# Build: V13.2025.10.21.01
+# Mode: PAPER (Simulated Data)
+# Phase: 5 — Human Feedback & Discipline Integration
+# ============================================================
+
+1. DOCTRINE OVERVIEW
+------------------------------------------------------------
+Origin: Umar Ashraf “From Novice to Expert — 5-Stage Trader Framework” (Apr 2025)
+Focus: Behavioral development, trader discipline, and psychological maturity model.
+Purpose: Integrate the 5-stage human progression system into V13’s behavioral architecture,
+allowing dynamic feedback, adaptive guidance, and maturity-based rule control.
+
+Doctrine Mission:
+    Enable V13 to evaluate the trader’s current behavioral stage, calibrate risk and override
+    permissions accordingly, and reinforce structure, patience, and discipline over profit-seeking.
+
+------------------------------------------------------------
+2. CORE PRINCIPLES
+------------------------------------------------------------
+Trader development proceeds through five stages:
+    Stage 1 → Novice: Build structure and process; emotions irrelevant.
+    Stage 2 → Developing: Apply structure; gather performance data.
+    Stage 3 → Intermediate: Refine consistency; psychology begins to matter.
+    Stage 4 → Advanced: Scale size responsibly; discipline under pressure.
+    Stage 5 → Pro: Mastery through calm execution and continuous refinement.
+
+Truths encoded for V13 behavioral mapping:
+    - Trading mastery = process + patience + repetition.
+    - Emotions are symptoms, not causes; structure fixes psychology.
+    - Discipline and consistency outweigh excitement and urgency.
+    - Process over profit — always.
+
+------------------------------------------------------------
+3. SYSTEM INTEGRATION MAP
+------------------------------------------------------------
+Module: V13_DoctrineFeedbackLoop
+    → Introduces Trader Stage Index (TSI), an internal measure of operator discipline.
+    → TSI scales from 1.0 (Novice) → 5.0 (Pro) based on consistency metrics.
+    → Adjusts feedback tone, verbosity, and corrective guidance based on stage.
+
+Module: V13_ManualOverride
+    → Restricts manual override access in Stages 1–2.
+    → Enables semi-override with confirmation from CommanderMonitor in Stages 3–4.
+    → Full override privileges only granted at Stage 5.
+
+Module: V13_RiskSentinel
+    → Auto-adjusts allowable risk by stage.
+        Stage 1: 0.1% max per trade.
+        Stage 2: 0.25% max.
+        Stage 3: 0.5%.
+        Stage 4: 1.0%.
+        Stage 5: 2.0% max (Pro scaling).
+    → Links cooldown duration and recovery tolerance to TSI.
+
+Module: V13_CommanderMonitor
+    → Tracks daily journaling, review consistency, and adherence to system discipline.
+    → Generates Trader Maturity Log under /logs/trader_maturity.json.
+
+------------------------------------------------------------
+4. BEHAVIORAL TRANSLATION MAP
+------------------------------------------------------------
+[Stage → V13 Behavior]
+
+Stage 1 — NOVICE
+    Focus: Foundation & observation.
+    V13 Response: Restrict trade frequency, disable manual override, prompt structural learning.
+    Paper Mode Behavior:
+        - Trades limited to 1 per session.
+        - Daily feedback: “Structure > Emotion.”
+
+Stage 2 — DEVELOPING
+    Focus: Applying structure & testing ideas.
+    V13 Response: Activate structured journaling requirement; risk limited to 0.25%.
+    Paper Mode Behavior:
+        - Trade cap: 2/session.
+        - Feedback emphasis: process consistency, not profits.
+
+Stage 3 — INTERMEDIATE
+    Focus: Consistency, rule enforcement, emotional control.
+    V13 Response: Enable limited ManualOverride under Commander supervision.
+    Paper Mode Behavior:
+        - Adds consistency score metric (0–100 scale).
+        - RiskSentinel: locks trades if score < 60.
+
+Stage 4 — ADVANCED
+    Focus: Controlled scaling & mental endurance.
+    V13 Response: Activate high-pressure simulation.
+    Paper Mode Behavior:
+        - RiskSentinel allows 1% risk but increases oversight frequency.
+        - FeedbackLoop monitors stress-based drawdowns.
+
+Stage 5 — PRO
+    Focus: Full mastery, long-term execution discipline.
+    V13 Response: Unlocks full ManualOverride privileges and adaptive AI counsel.
+    Paper Mode Behavior:
+        - RiskSentinel enables full scaling.
+        - CommanderMonitor issues daily review prompts for refinement.
+
+------------------------------------------------------------
+5. ADAPTIVE LOGIC FLOW (V13_DoctrineFeedbackLoop)
+------------------------------------------------------------
+1. On system initialization → load trader stats from /data/performance.json.
+2. Evaluate consistency ratio, rule adherence %, and journaling frequency.
+3. Compute Trader Stage Index (TSI):
+       TSI = 1 + ((consistency% / 20) + (journaling% / 25) + (disciplineScore / 25)) / 3
+4. Cross-reference thresholds:
+       1.0–1.9 = Stage 1
+       2.0–2.9 = Stage 2
+       3.0–3.9 = Stage 3
+       4.0–4.7 = Stage 4
+       ≥4.8     = Stage 5
+5. Output Stage Summary to Commander console.
+6. Adjust system tone + permissions accordingly.
+
+------------------------------------------------------------
+6. FEEDBACK CALIBRATION MATRIX
+------------------------------------------------------------
+| Stage | Feedback Tone | Verbosity | Override | RiskCap | Cooldown |
+|--------|----------------|------------|-----------|----------|-----------|
+| 1 | Directive | High | Disabled | 0.1% | 30m |
+| 2 | Coaching | High | Disabled | 0.25% | 25m |
+| 3 | Analytical | Medium | Limited | 0.5% | 20m |
+| 4 | Advisory | Low | Semi | 1.0% | 15m |
+| 5 | Autonomous | Minimal | Full | 2.0% | 10m |
+
+------------------------------------------------------------
+7. PERFORMANCE METRICS
+------------------------------------------------------------
+Expected PAPER Outcomes:
+    - 100% compliance tracking of journaling habits.
+    - Minimum 20% improvement in consistency metrics per 2 cycles.
+    - Gradual maturity transition from Stage 1 → 3 within 30 PAPER sessions.
+
+------------------------------------------------------------
+8. PSYCHOLOGICAL & BEHAVIORAL FLAGS
+------------------------------------------------------------
+Behavior Encoding:
+    - structure.guard = TRUE
+    - impatience.filter = ACTIVE
+    - discipline.metric = ENABLED
+    - journaling.required = TRUE
+    - manual_override.gate = STAGED
+
+------------------------------------------------------------
+9. SIMULATION CHECKPOINTS
+------------------------------------------------------------
+PAPER Validation Flow:
+    1. Initialize PAPER mode environment.
+    2. Assign trader to Stage 1 and simulate progression through Stage 5.
+    3. Monitor TSI score adjustments and permission transitions.
+    4. Verify journaling and feedback reports generated correctly.
+    5. Confirm adaptive behavior change logs in /logs/feedback_cycle.json.
+
+Expected PAPER Metrics:
+    - Stage transition accuracy ≥ 95%.
+    - Adaptive feedback latency < 2s.
+    - Risk tolerance scaling verified across stages.
+
+------------------------------------------------------------
+10. INTEGRATION SUMMARY
+------------------------------------------------------------
+✅ Trader Stage Index (TSI) integrated within DoctrineFeedbackLoop.
+✅ ManualOverride, RiskSentinel, and CommanderMonitor synchronized.
+✅ Behavioral reinforcement system operational under PAPER.
+✅ Maturity-driven discipline model established.
+✅ PAPER verification authorized.
+
+Doctrine Status: ACTIVE (PAPER Mode)
+
+"Process over profit — mastery through repetition."
+# ============================================================

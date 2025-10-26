@@ -1,0 +1,9 @@
+{
+  "volatility": {"keywords": ["volatility", "burst", "spike"], "param": "threshold"},
+  "momentum": {"keywords": ["momentum", "trend", "velocity"], "param": "momentum_threshold"},
+  "balance": {"keywords": ["balance", "equilibrium", "mean"], "param": "anchor_window"},
+  "reversion": {"keywords": ["reversion", "fade", "pullback"], "param": "reversion_sigma"},
+  "risk": {"keywords": ["risk", "stability", "defend"], "param": "volatility_limit"},
+  "drawdown": {"keywords": ["drawdown", "loss", "floor"], "param": "max_drawdown_limit"},
+  "recovery": {"keywords": ["recovery", "comeback", "reset"], "param": "cooldown"}
+}

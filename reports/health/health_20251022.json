@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "as_of": "2025-10-22T23:29:23.588832+00:00",
+  "tests": {
+    "test_latency": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "report": {
+        "status": "PASS",
+        "message": "Latency within tolerance",
+        "details": {
+          "per_block": {
+            "BLOCK1": {
+              "count": 12,
+              "avg": 34.333333333333336,
+              "max": 61.0
+            },
+            "BLOCK2": {
+              "count": 10,
+              "avg": 31.2,
+              "max": 34.0
+            },
+            "BLOCK3": {
+              "count": 11,
+              "avg": 35.09090909090909,
+              "max": 67.0
+            }
+          },
+          "avg_latency_ms": 33.63636363636363,
+          "max_latency_ms": 67.0,
+          "sample_count": 33,
+          "threshold_avg_ms": 500,
+          "threshold_max_ms": 1000
+        },
+        "generated_at": "2025-10-22T23:29:22.958814"
+      }
+    },
+    "test_risk_caps": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "report": {
+        "status": "PASS",
+        "message": "Risk caps respected",
+        "details": {
+          "global": {
+            "drawdown": 0.0,
+            "cap": 5.0,
+            "breach": false
+          },
+          "local_breaches": [],
+          "block_count": 0
+        },
+        "generated_at": "2025-10-22T23:29:23.103813"
+      }
+    },
+    "test_sync_integrity": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "C:\\Users\\BRHN\\Videos\\bohrn 2025\\trade\\V13 gloabal\\V13\\tests\\phase8_healthcheck\\test_sync_integrity.py:30: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  now = datetime.utcnow()",
+      "report": {
+        "status": "PASS",
+        "message": "SyncLoop status within tolerance",
+        "details": {
+          "history_length": 0,
+          "last_timestamp": null,
+          "stale": false,
+          "issues": []
+        },
+        "generated_at": "2025-10-22T23:29:23.254825"
+      }
+    },
+    "test_adaptive_weights": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "report": {
+        "status": "PASS",
+        "message": "Adaptive allocation history consistent",
+        "details": {
+          "entries_checked": 19,
+          "latest_entry": {
+            "timestamp": "2025-10-22T23:21:55.286585",
+            "block_id": "BLOCK1",
+            "allocation": {
+              "Assassins": 0.6,
+              "Avengers": 0.4
+            },
+            "context": {
+              "volatility": 0.25,
+              "trend": 0.05,
+              "score": {
+                "block_id": "BLOCK1",
+                "samples": 1,
+                "volatility": 0.15,
+                "trend_strength": 0.15,
+                "classification": "LOW_VOL"
+              }
+            },
+            "reason": "phase6_low_vol"
+          },
+          "breaches": []
+        },
+        "generated_at": "2025-10-22T23:29:23.403811"
+      }
+    },
+    "test_audit_hash": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "report": {
+        "status": "PASS",
+        "message": "Audit seal verified",
+        "details": {
+          "entries_checked": 3,
+          "composite_present": true,
+          "mismatches": []
+        },
+        "generated_at": "2025-10-22T23:29:23.564813"
+      }
+    }
+  },
+  "performance_summary": {
+    "blocks": 2,
+    "path": "data\\performance_summary.json"
+  },
+  "doctrine_report": "docs\\DoctrineReports\\2025-10-23.txt",
+  "doctrine_update": "docs\\DoctrineUpdates\\doctrine_update_2025-10-23.json"
+}

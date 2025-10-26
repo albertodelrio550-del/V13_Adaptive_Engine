@@ -1,0 +1,30 @@
+# ============================================================
+# V13 Adaptive Manual Trading Engine — CrashGuard Event Log
+# Build_ID: V13.2025.10.20.01
+# Location: /Videos/bohrn 2025/trade/V13/logs/CrashGuard_EventLog.csv
+# ============================================================
+import csv
+
+clean_rows = []
+with open("../logs/CrashGuard_EventLog.csv") as f:
+    for row in csv.reader(f):
+        if not row or row[0].startswith("#"):
+            continue
+        clean_rows.append([c.strip() for c in row])
+
+with open("../logs/CrashGuard_EventLog.csv", "w", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(["timestamp","module","event_type","severity","description","action_taken","session_id"])
+    writer.writerows(clean_rows)
+
+
+timestamp,module,event_type,severity,description,action_taken,session_id
+2024-06-15 14:32:10,CrashGuard,ERROR,High,"Unexpected shutdown detected due to power failure.","System rebooted and trading session resumed.",session_001
+2024-06-15 15:45:22,CrashGuard,WARNING,Medium,"Memory usage exceeded threshold limits.","Memory cleanup initiated.",session_001
+2024-06-15 16:10:05,CrashGuard,INFO,Low,"Routine system check completed successfully.","No action required.",session_001
+2024-06-16 09:22:33,CrashGuard,ERROR,High,"Data corruption detected in trade logs.","Corrupted files restored from backup.",session_002
+2024-06-16 11:05:47,CrashGuard,WARNING,Medium           ,"Network latency issues affecting trade execution.","Switched to backup network.",session_002
+2024-06-16 12:30:15,CrashGuard,INFO,Low,"System performance metrics logged.","No action required.",session_002
+2024-06-17 08:15:50,CrashGuard,ERROR,High,"Critical failure in trade algorithm module.","Module restarted and diagnostics run.",session_003
+2024-06-17 10:40:29,CrashGuard,WARNING,Medium,"Disk space running low on primary server.","Old logs archived to free up space.",session_003
+2024-06-17 13:55:12,CrashGuard,INFO,Low,"Backup completed successfully.","No action required.",session_003              

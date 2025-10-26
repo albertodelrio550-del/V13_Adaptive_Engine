@@ -1,0 +1,13 @@
+{
+  "learning_mode": true,
+  "consecutive_failures": 0,
+  "last_parameters": {
+    "Assassin_stop_usd": 2.5
+  },
+  "last_accepted_date": "2030-01-01",
+  "changes_today": {
+    "2030-01-01": 2,
+    "2025-10-22": 3,
+    "2025-10-23": 1
+  }
+}

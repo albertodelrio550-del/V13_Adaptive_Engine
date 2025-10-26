@@ -1,0 +1,36 @@
+============================================================
+ASSASSINS PLAN — V13
+Trade A Doctrine (Scalp Operations)
+============================================================
+
+Mission:
+Fast-entry precision strikes aimed at capturing micro-profits
+(+1 → +10 USD) while maintaining ultra-low exposure time.
+
+Hierarchy:
+• Privates  (Ball-1 → Ball-5) → 5 % capital each, quick-lock scalps.
+• Specialists (Ball-6 → Ball-8) → 10 % capital each, mid-risk strikes.
+• Major  (Ball-9) → 20 % capital, session overseer.
+• Joker Sniper (Ball-10) → 25 % capital, recovery trigger at −150 USD.
+
+Operational Rules:
+• Profit lock: Fast (1 → 2 USD).
+• Exit: On volatility spike or target hit.
+• Max concurrent positions: 5.
+• Drawdown tolerance: tight.
+• Duration: short, typically ≤ 60 s.
+• Behavior: auto-assisted manual control.
+
+Doctrine Summary:
+Privates secure micro profits, Specialists extend range,
+Major protects drawdown, and Joker Sniper restores balance
+after heavy loss.
+The Assassins retreat early, preserve capital, and
+prepare for the next engagement.
+
+============================================================
+ARCHIVE NOTE (V13 Transition)
+Converted from V12.1 V4 legacy scalp plan for reference.
+Dynamic version: Assassins_Plan_V13.json
+============================================================
+MODIFIED FOR TESTING

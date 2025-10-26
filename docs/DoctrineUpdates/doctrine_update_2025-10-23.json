@@ -1,0 +1,14 @@
+{
+  "date": "2025-10-23",
+  "generated_at": "2025-10-23T01:46:28.605476+00:00",
+  "suggestions": {
+    "Assassin_stop_usd": 2.63
+  },
+  "reasoning": {
+    "Assassin_stop_usd": "Sharpe < 1.0 with elevated volatility"
+  },
+  "accepted": false,
+  "reviewed_at": null,
+  "reviewer": null,
+  "source": "V13_DoctrineFeedbackLoop"
+}

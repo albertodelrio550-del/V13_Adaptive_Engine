@@ -1,0 +1,85 @@
+{
+  "modules": {
+    "TelemetryFusion": "OK",
+    "RiskSentinel": "OK",
+    "PerformanceTracker": "OK",
+    "AdaptiveCycle": "OK",
+    "DoctrineFeedbackLoop": "OK",
+    "CommanderMonitor": "OK"
+  },
+  "safety": {
+    "override": true,
+    "kill": false,
+    "kill_reason": null
+  },
+  "blocks": {
+    "BLOCK1": {
+      "mode": "Balanced",
+      "capital": 5500.0,
+      "status": "READY",
+      "pnl": 0.0,
+      "drawdown": 0.0,
+      "latency_avg_ms": 0.0,
+      "latency_max_ms": 0.0,
+      "last_heartbeat": 1761180438.9737291,
+      "allocation": {
+        "Assassins": 0.5,
+        "Avengers": 0.5
+      },
+      "symbol": "SPY"
+    },
+    "BLOCK2": {
+      "mode": "Safe",
+      "capital": 5500.0,
+      "status": "READY",
+      "pnl": 0.0,
+      "drawdown": 0.0,
+      "latency_avg_ms": 0.0,
+      "latency_max_ms": 0.0,
+      "last_heartbeat": 1761180438.974733,
+      "allocation": {
+        "Assassins": 0.5,
+        "Avengers": 0.5
+      },
+      "symbol": "QQQ"
+    },
+    "BLOCK3": {
+      "mode": "Aggressive",
+      "capital": 5500.0,
+      "status": "READY",
+      "pnl": 0.0,
+      "drawdown": 0.0,
+      "latency_avg_ms": 0.0,
+      "latency_max_ms": 0.0,
+      "last_heartbeat": 1761180438.974733,
+      "allocation": {
+        "Assassins": 0.5,
+        "Avengers": 0.5
+      },
+      "symbol": "TSLA"
+    }
+  },
+  "global": {
+    "total_capital": 16500.0,
+    "pnl": 0.0,
+    "weighted_drawdown": 0.0,
+    "freeze": false,
+    "max_cap": 5.0,
+    "queue_mode": false,
+    "scaling": {
+      "block_count": 3,
+      "gross_capital": 16500.0,
+      "target_daily_pnl": 165.0,
+      "max_drawdown": -330.0,
+      "risk_per_trade_usd": 123.75,
+      "risk_per_trade_pct": 0.75,
+      "per_block_risk_usd": 41.25
+    }
+  },
+  "last_action": "PERFORMANCE_SCALE_UP",
+  "detail": {
+    "action": "PERFORMANCE_SCALE_UP",
+    "multiplier": 1.1,
+    "timestamp": "2025-10-23T00:47:18.975732+00:00"
+  }
+}

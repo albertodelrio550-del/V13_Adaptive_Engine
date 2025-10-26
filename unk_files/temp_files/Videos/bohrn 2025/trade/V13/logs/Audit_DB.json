@@ -1,0 +1,179 @@
+{
+    "sessions": [
+        {
+            "Timestamp": "2025-10-20 18:10:24",
+            "Session_ID": "V13_20251020_181024",
+            "Event": "SESSION_START",
+            "Status": "OK",
+            "Details": "Session initialized."
+        },
+        {
+            "Timestamp": "2025-10-20 18:10:24",
+            "Session_ID": "V13_20251020_181024",
+            "Event": "HASH_VALIDATION",
+            "Status": "FAIL",
+            "Details": "Integrity_HashList.md5 missing."
+        },
+        {
+            "Timestamp": "2025-10-20 18:10:24",
+            "Session_ID": "V13_20251020_181024",
+            "Event": "SESSION_ABORT",
+            "Status": "FAIL",
+            "Details": "Hash mismatch detected."
+        },
+        {
+            "Timestamp": "2025-10-20 21:35:48",
+            "Session_ID": "V13_20251020_213548",
+            "Event": "SESSION_START",
+            "Status": "OK",
+            "Details": "Session initialized."
+        },
+        {
+            "Timestamp": "2025-10-20 21:35:48",
+            "Session_ID": "V13_20251020_213548",
+            "Event": "HASH_VALIDATION",
+            "Status": "FAIL",
+            "Details": "Integrity_HashList.md5 missing."
+        },
+        {
+            "Timestamp": "2025-10-20 21:35:48",
+            "Session_ID": "V13_20251020_213548",
+            "Event": "SESSION_ABORT",
+            "Status": "FAIL",
+            "Details": "Hash mismatch detected."
+        },
+        {
+            "Timestamp": "2025-10-20 21:50:30",
+            "Session_ID": "V13_20251020_215030",
+            "Event": "SESSION_START",
+            "Status": "OK",
+            "Details": "Session initialized."
+        },
+        {
+            "Timestamp": "2025-10-20 21:50:30",
+            "Session_ID": "V13_20251020_215030",
+            "Event": "HASH_VALIDATION",
+            "Status": "FAIL",
+            "Details": "Integrity_HashList.md5 missing."
+        },
+        {
+            "Timestamp": "2025-10-20 21:50:30",
+            "Session_ID": "V13_20251020_215030",
+            "Event": "SESSION_ABORT",
+            "Status": "FAIL",
+            "Details": "Hash mismatch detected."
+        },
+        {
+            "Timestamp": "2025-10-21 00:22:09",
+            "Session_ID": "V13_20251021_002209",
+            "Event": "SESSION_START",
+            "Status": "OK",
+            "Details": "Session initialized."
+        },
+        {
+            "Timestamp": "2025-10-21 00:22:09",
+            "Session_ID": "V13_20251021_002209",
+            "Event": "HASH_VALIDATION",
+            "Status": "FAIL",
+            "Details": "Integrity_HashList.md5 missing."
+        },
+        {
+            "Timestamp": "2025-10-21 00:22:09",
+            "Session_ID": "V13_20251021_002209",
+            "Event": "SESSION_ABORT",
+            "Status": "FAIL",
+            "Details": "Hash mismatch detected."
+        },
+        {
+            "Timestamp": "2025-10-21 01:34:37",
+            "Session_ID": "V13_20251021_013437",
+            "Event": "SESSION_START",
+            "Status": "OK",
+            "Details": "Session initialized."
+        },
+        {
+            "Timestamp": "2025-10-21 01:34:37",
+            "Session_ID": "V13_20251021_013437",
+            "Event": "HASH_VALIDATION",
+            "Status": "FAIL",
+            "Details": "Integrity_HashList.md5 missing."
+        },
+        {
+            "Timestamp": "2025-10-21 01:34:37",
+            "Session_ID": "V13_20251021_013437",
+            "Event": "SESSION_ABORT",
+            "Status": "FAIL",
+            "Details": "Hash mismatch detected."
+        },
+        {
+            "Timestamp": "2025-10-21 01:48:37",
+            "Session_ID": "V13_20251021_014837",
+            "Event": "SESSION_START",
+            "Status": "OK",
+            "Details": "Session initialized."
+        },
+        {
+            "Timestamp": "2025-10-21 01:48:37",
+            "Session_ID": "V13_20251021_014837",
+            "Event": "HASH_VALIDATION",
+            "Status": "FAIL",
+            "Details": "Integrity_HashList.md5 missing."
+        },
+        {
+            "Timestamp": "2025-10-21 01:48:37",
+            "Session_ID": "V13_20251021_014837",
+            "Event": "SESSION_ABORT",
+            "Status": "FAIL",
+            "Details": "Hash mismatch detected."
+        },
+        {
+            "Timestamp": "2025-10-21 04:16:31",
+            "Session_ID": "V13_20251021_041631",
+            "Event": "SESSION_START",
+            "Status": "OK",
+            "Details": "Session initialized."
+        },
+        {
+            "Timestamp": "2025-10-21 04:16:31",
+            "Session_ID": "V13_20251021_041631",
+            "Event": "HASH_VALIDATION",
+            "Status": "FAIL",
+            "Details": "Integrity_HashList.md5 missing."
+        },
+        {
+            "Timestamp": "2025-10-21 04:16:31",
+            "Session_ID": "V13_20251021_041631",
+            "Event": "SESSION_ABORT",
+            "Status": "FAIL",
+            "Details": "Hash mismatch detected."
+        },
+        {
+            "Timestamp": "2025-10-21 19:27:36",
+            "Session_ID": "MANUAL_SEAL",
+            "Event": "AUDIT_SEAL",
+            "Status": "OK",
+            "Details": "sha256=df3230478fdd94e5c194210f1c2d1b0f261cc7b192a4cf3c21d6d8ea936cb596"
+        },
+        {
+            "Timestamp": "2025-10-21 20:37:57",
+            "Session_ID": "V13_20251021_203757",
+            "Event": "SESSION_START",
+            "Status": "OK",
+            "Details": "Session initialized."
+        },
+        {
+            "Timestamp": "2025-10-21 20:37:57",
+            "Session_ID": "V13_20251021_203757",
+            "Event": "HASH_VALIDATION",
+            "Status": "FAIL",
+            "Details": "Integrity_HashList.md5 missing."
+        },
+        {
+            "Timestamp": "2025-10-21 20:37:57",
+            "Session_ID": "V13_20251021_203757",
+            "Event": "SESSION_ABORT",
+            "Status": "FAIL",
+            "Details": "Hash mismatch detected."
+        }
+    ]
+}

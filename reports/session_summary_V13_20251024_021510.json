@@ -1,0 +1,28 @@
+{
+  "session_id": "V13_20251024_021510",
+  "window": {
+    "started_at": "2025-10-24T01:15:10.689772+00:00",
+    "ended_at": "2025-10-24T07:15:20.002768+00:00"
+  },
+  "reconciliation": {
+    "capital_start": 9997.5615253,
+    "capital_end": 9997.5615253,
+    "capital_delta": 0.0,
+    "chosen_realized_pnl": 0.0,
+    "chosen_source": "alpaca",
+    "mismatch": 0.0
+  },
+  "sources": {
+    "trade_report_present": true,
+    "alpaca_realized": 0.0,
+    "battlefield_estimated": -110.74
+  },
+  "winloss": {
+    "count": 0,
+    "wins": 0,
+    "losses": 0,
+    "breakeven": 0,
+    "realized_pnl": null,
+    "win_rate": 0.0
+  }
+}

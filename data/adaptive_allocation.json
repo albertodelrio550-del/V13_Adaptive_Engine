@@ -1,0 +1,670 @@
+{
+  "history": [
+    {
+      "timestamp": "2025-10-22T14:20:17",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.55,
+        "Avengers": 0.45
+      },
+      "context": {
+        "volatility": 0.32,
+        "trend": 0.05
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T14:20:17",
+      "block_id": "BLOCK2",
+      "allocation": {
+        "Assassins": 0.42,
+        "Avengers": 0.58
+      },
+      "context": {
+        "volatility": 1.12,
+        "trend": -0.08
+      },
+      "reason": "phase6_high_vol_neg_trend"
+    },
+    {
+      "timestamp": "2025-10-22T19:38:30.131937",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T19:39:12.255445",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T19:39:31.254842",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T19:44:30.607932",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T19:44:57.627264",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T19:47:55.341966",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T20:04:49.107616",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T20:20:24.270808",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T20:22:12.463195",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T20:24:07.188139",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T20:25:21.993424",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T20:30:56.102685",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T22:33:50.484241",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T23:06:01.150096",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T23:13:25.701538",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T23:20:46.668273",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T23:21:55.286585",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T23:30:42.594570",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T23:41:50.264095",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-22T23:42:30.503629",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T00:01:11.092783+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T00:02:39.056789+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T00:07:10.110194+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T00:14:15.507224+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T00:24:15.222872+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T00:42:49.187530+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T00:47:18.868751+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T00:48:12.373438+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T00:52:06.621631+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T00:54:05.343459+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T01:23:27.423318+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    {
+      "timestamp": "2025-10-23T01:26:44.206854+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    }
+  ]
+}

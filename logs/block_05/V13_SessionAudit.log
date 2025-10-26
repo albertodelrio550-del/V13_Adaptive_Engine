@@ -1,0 +1,960 @@
+2025-10-22T19:38:33.450342 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.451343 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.464344 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.465345 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.475344 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.476342 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.485345 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.486347 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.497345 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.498346 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.510348 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.511344 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.523345 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.523345 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.533343 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.534341 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.546347 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.547346 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.561343 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.562342 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.574346 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.575348 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.591344 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.595343 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.609347 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.610348 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.619345 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.620347 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.631344 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.631344 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.642345 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.642345 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.653345 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.654345 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.666344 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.667343 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.679345 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.680348 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:38:33.690345 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T19:38:33.691349 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.478441 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.479440 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.489441 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.490441 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.500441 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.501441 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.510442 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.511440 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.522442 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.523442 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.548442 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.552442 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.565440 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.566441 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.578441 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.579442 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.590442 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.591445 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.602441 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.603440 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.613440 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.614441 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.624442 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.625443 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.635440 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.635440 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.646441 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.646441 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.656440 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.657443 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.667442 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.668440 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.680441 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.681441 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.692468 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.694441 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.704459 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.706446 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:13.718448 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T19:39:13.719441 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.481830 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.482830 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.495826 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.497825 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.508825 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.509826 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.520825 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.521828 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.531830 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.532831 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.542830 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.544852 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.554842 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.555829 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.566830 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.567829 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.577870 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.579829 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.589826 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.590824 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.604829 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.610829 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.636824 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.637828 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.648829 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.649828 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.661828 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.662827 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.673825 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.674825 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.685825 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.686825 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.699827 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.700827 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.715827 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.716826 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.732825 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.733826 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:39:32.745831 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T19:39:32.746828 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:36.936718 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T19:40:36.937717 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:36.948718 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T19:40:36.949718 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:36.958718 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T19:40:36.959718 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:36.970718 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T19:40:36.971718 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:36.982718 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T19:40:36.983720 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:36.992719 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T19:40:36.993718 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.005720 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.006718 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.018717 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.020718 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.032717 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.033720 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.043718 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.045720 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.054717 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.055718 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.065718 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.066718 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.076718 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.077719 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.087718 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.088718 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.098718 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.099720 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.111722 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.112721 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.131720 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.132720 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.144721 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.145720 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.155718 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.156718 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:37.166717 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T19:40:37.167718 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:40:46.089348 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:46.204357 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:46.334350 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:46.460347 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:46.589349 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:46.711347 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:46.818346 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:46.932347 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:47.052120 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:47.163125 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:47.283644 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:47.413645 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:47.525647 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:47.631644 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:47.744648 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:47.878645 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:47.986660 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:48.098645 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:48.213643 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:40:48.337654 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:10.609696 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.610692 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.623701 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.624692 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.635688 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.636688 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.650688 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.651687 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.661688 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.662688 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.671687 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.674691 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.686687 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.687688 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.697688 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.698688 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.710690 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.712693 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.724690 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.726690 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.736690 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.737690 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.757689 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.758689 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.768688 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.769688 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.782689 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.783688 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.794689 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.795689 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.804691 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.807695 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.820688 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.821688 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.834689 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.835690 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.849691 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.850690 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:10.861687 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T19:42:10.862687 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:42:19.779203 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:19.890202 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:20.009204 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:20.141205 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:20.252742 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:20.367744 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:20.478744 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:20.588745 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:20.698747 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:20.813742 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:20.926742 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:21.062742 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:21.179741 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:21.289744 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:21.410743 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:21.522743 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:21.637744 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:21.740743 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:21.840767 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:42:21.939745 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:10.844852 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.845851 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.855850 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.856850 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.867850 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.868851 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.878853 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.880851 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.889851 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.890850 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.901854 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.901854 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.914853 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.915851 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.924851 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.925850 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.936851 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.937851 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.948851 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.949851 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.958851 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.960855 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.971851 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.972851 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.982852 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.983851 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:10.995854 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T19:43:10.996854 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:11.006852 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T19:43:11.007851 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:11.018851 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T19:43:11.019853 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:11.029852 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T19:43:11.030850 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:11.039852 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T19:43:11.040851 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:11.050851 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T19:43:11.051851 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:11.063853 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T19:43:11.064851 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:43:18.954197 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:19.052193 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:19.156193 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:19.256198 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:19.349192 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:19.445194 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:19.541211 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:19.635192 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:19.732193 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:19.828194 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:19.924195 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:20.035276 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:20.142683 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:20.237048 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:20.332040 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:20.428056 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:20.525920 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:20.621887 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:20.714791 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:43:20.814496 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:31.793909 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.794908 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.805907 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.806910 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.817907 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.819911 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.830908 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.832912 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.844910 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.845911 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.857909 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.858909 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.869909 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.870908 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.879909 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.880909 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.890909 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.891909 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.904908 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.904908 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.914915 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.916917 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.925909 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.926909 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.938909 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.939910 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.951909 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.952909 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.962906 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.963908 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.975912 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.976912 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.987909 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.987909 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:31.997911 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T19:44:31.999912 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:32.009907 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T19:44:32.010910 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:32.021909 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T19:44:32.021909 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:39.941684 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:40.038672 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:40.147671 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:40.243673 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:40.337690 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:40.435670 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:40.532614 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:40.631587 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:40.725607 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:40.819044 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:40.915567 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:41.024568 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:41.125569 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:41.230568 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:41.325090 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:41.421154 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:41.525194 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:41.621268 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:41.723268 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:41.820273 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:44:58.759664 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.761654 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.772652 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.773649 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.784666 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.785667 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.796649 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.797649 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.807668 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.808649 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.819668 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.819668 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.830667 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.831667 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.841667 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.842666 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.854661 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.855652 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.867648 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.868651 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.878651 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.880649 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.890653 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.891651 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.904649 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.905649 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.916666 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.917653 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.927651 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.929655 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.938652 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.939650 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.950654 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.951654 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.963655 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.964656 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.973654 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.974654 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:44:58.985666 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T19:44:58.986651 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:45:07.220518 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:07.315515 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:07.414519 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:07.515561 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:07.615551 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:07.718579 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:07.817581 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:07.917613 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:08.018574 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:08.118602 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:08.218597 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:08.318630 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:08.417471 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:08.516363 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:08.616358 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:08.728632 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:08.831660 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:08.930433 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:09.034385 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:45:09.138308 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:47:56.651951 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.652948 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.665951 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.666949 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.677947 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.678955 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.687947 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.688949 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.701947 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.702950 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.713949 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.714947 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.724946 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.725952 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.735950 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.736947 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.747950 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.749948 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.761951 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.762950 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.772948 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.773948 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.784948 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.785948 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.795949 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.796949 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.806947 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.806947 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.817946 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.818948 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.829946 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.830948 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.853948 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.854948 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.865953 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.866953 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.876976 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.878955 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:47:56.888954 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T19:47:56.888954 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T19:48:05.112301 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:05.205828 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:05.308823 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:05.413384 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:05.509442 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:05.611436 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:05.707451 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:05.882284 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:06.010851 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:06.119854 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:06.233369 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:06.338254 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:06.442675 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:06.546725 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:06.648771 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:06.831815 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:06.944372 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:07.062427 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:07.162587 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T19:48:07.257589 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:04:50.627609 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.628610 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.639608 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.640608 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.650609 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.651610 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.662609 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.663609 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.674608 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.675609 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.684609 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.686611 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.696609 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.697609 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.709609 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.710608 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.722610 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.723609 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.733608 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.734608 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.747609 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.748609 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.760610 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.761609 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.773609 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.774608 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.783609 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.785614 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.796608 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.797608 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.809609 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.810609 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.821610 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.822609 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.832609 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.833609 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.846619 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.847610 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:50.859608 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T20:04:50.861609 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:04:59.956640 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:00.067641 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:00.185691 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:00.296262 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:00.397820 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:00.495819 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:00.608819 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:00.754908 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:00.883953 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:00.986952 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:01.089992 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:01.197040 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:01.314558 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:01.504079 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:01.650077 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:01.758128 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:02.149271 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:02.375905 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:02.470904 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:05:02.573906 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:25.703791 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.704791 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.715791 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.716790 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.728790 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.729790 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.742794 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.743793 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.756793 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.758793 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.769790 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.770792 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.783790 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.784791 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.798794 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.799792 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.813790 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.814790 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.830791 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.831792 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.844791 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.845790 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.858793 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.860792 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.875794 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.877791 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.889818 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.890793 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.901793 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.902793 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.914790 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.915792 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.927791 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.928791 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.942790 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.943795 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.954791 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.955795 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:25.967796 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T20:20:25.968796 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:20:34.706048 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:34.836072 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:34.974073 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:35.088071 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:35.214072 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:35.341588 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:35.494607 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:35.734607 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:35.930609 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:36.077607 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:36.203605 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:36.323124 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:36.446160 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:36.564196 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:36.684246 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:36.802248 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:36.921246 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:37.040246 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:37.158245 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:20:37.274265 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:13.588199 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.590193 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.600200 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.600200 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.610207 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.611188 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.620200 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.621190 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.631201 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.632189 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.642201 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.644202 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.655189 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.657194 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.667195 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.668195 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.681200 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.682188 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.693207 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.694189 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.703200 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.704189 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.714187 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.715195 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.724191 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.725190 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.734201 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.735194 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.746189 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.747189 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.757200 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.758195 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.768189 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.769189 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.781191 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.783194 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.795190 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.796189 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:13.806191 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T20:22:13.807193 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:22:22.019576 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.113643 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.204651 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.296645 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.387644 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.475651 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.566647 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.655645 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.739645 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.824644 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.910647 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:22.998644 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:23.088644 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:23.176650 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:23.260646 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:23.344668 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:23.429206 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:23.514230 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:23.604323 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:22:23.691320 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:08.353113 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.354108 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.364108 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.365109 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.378107 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.379109 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.390107 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.391107 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.400108 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.402120 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.411107 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.412108 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.423107 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.424108 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.432108 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.433107 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.443107 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.444107 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.455113 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.456111 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.466127 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.467109 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.481110 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.482110 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.493126 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.494108 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.506126 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.507108 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.516126 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.517108 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.527107 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.528119 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.538107 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.539114 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.548108 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.548108 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.558118 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.559119 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:08.569111 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T20:24:08.570108 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:24:16.278965 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:16.370965 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:16.458965 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:16.549965 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:16.639966 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:16.734476 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:16.823476 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:16.917477 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.005476 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.092474 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.183476 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.271158 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.365180 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.452191 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.538847 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.630364 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.724365 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.818364 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:17.908369 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:24:18.001364 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:23.412408 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.413404 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.425405 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.426404 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.441408 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.442406 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.457404 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.458405 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.471408 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.472407 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.486405 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.487405 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.500405 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.501406 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.513405 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.515406 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.526404 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.528409 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.541407 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.542406 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.555405 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.556407 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.571405 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.572404 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.586403 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.587404 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.599405 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.600405 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.610403 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.612406 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.623405 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.625405 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.637406 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.638405 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.653409 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.655406 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.667408 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.668408 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:23.681404 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T20:25:23.682404 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:25:32.029445 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:32.133454 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:32.238446 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:32.335451 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:32.440079 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:32.546527 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:32.649580 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:32.752568 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:32.859683 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:32.961696 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:33.062695 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:33.165758 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:33.268758 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:33.376732 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:33.482726 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:33.644967 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:33.746031 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:33.845019 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:33.944020 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:25:34.042021 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:30:57.525669 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.526669 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.539667 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.540671 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.552666 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.553666 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.564666 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.565665 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.577665 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.578665 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.588666 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.590669 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.601666 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.602666 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.613665 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.614666 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.625669 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.626666 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.637666 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.638667 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.653668 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.654667 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.666677 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.667679 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.679668 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.680666 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.691671 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.692671 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.702677 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.703677 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.715672 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.716672 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.728671 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.729668 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.740670 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.742670 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.754672 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.754672 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:30:57.768666 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T20:30:57.768666 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T20:31:05.820492 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:05.920903 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:06.021904 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:06.122910 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:06.230904 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:06.332907 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:06.429914 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:06.526911 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:06.624018 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:06.725018 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:06.826019 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:06.927017 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:07.033018 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:07.136018 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:07.237018 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:07.337276 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:07.433277 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:07.528270 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:07.637270 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T20:31:07.744271 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:33:51.954244 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T22:33:51.956242 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:51.966241 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T22:33:51.967241 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:51.978242 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T22:33:51.979241 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:51.991241 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T22:33:51.992243 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.003241 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.005245 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.018241 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.019242 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.033241 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.034241 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.048241 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.049243 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.062246 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.063244 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.075242 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.076241 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.088242 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.088242 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.100241 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.101241 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.115242 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.115242 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.130244 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.131241 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.145241 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.146243 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.158242 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.159241 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.170242 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.171246 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.182241 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.183242 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.194240 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.194240 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:33:52.207243 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T22:33:52.208243 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T22:34:00.667969 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:00.770966 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:00.876970 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:00.976966 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:01.083967 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:01.181972 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:01.277967 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:01.377984 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:01.476967 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:01.578967 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:01.685967 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:01.788984 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:01.883973 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:01.987971 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:02.086973 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:02.189971 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:02.289971 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:02.386973 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:02.489965 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T22:34:02.593972 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:03.541140 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.542140 | ORDER_INTENT | id=TEST-BLOCK5-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.563142 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.564144 | ORDER_INTENT | id=TEST-BLOCK5-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.587145 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.588142 | ORDER_INTENT | id=TEST-BLOCK5-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.608141 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.609141 | ORDER_INTENT | id=TEST-BLOCK5-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.633143 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.634142 | ORDER_INTENT | id=TEST-BLOCK5-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.655142 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.656142 | ORDER_INTENT | id=TEST-BLOCK5-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.676141 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.677141 | ORDER_INTENT | id=TEST-BLOCK5-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.700142 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.701143 | ORDER_INTENT | id=TEST-BLOCK5-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.724142 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.725142 | ORDER_INTENT | id=TEST-BLOCK5-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.747153 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.748143 | ORDER_INTENT | id=TEST-BLOCK5-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.770142 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.770142 | ORDER_INTENT | id=TEST-BLOCK5-10 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.791141 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.792142 | ORDER_INTENT | id=TEST-BLOCK5-11 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.815143 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.816145 | ORDER_INTENT | id=TEST-BLOCK5-12 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.838141 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.839142 | ORDER_INTENT | id=TEST-BLOCK5-13 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.860142 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.861142 | ORDER_INTENT | id=TEST-BLOCK5-14 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.887141 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.887141 | ORDER_INTENT | id=TEST-BLOCK5-15 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.908142 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.909141 | ORDER_INTENT | id=TEST-BLOCK5-16 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.929141 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.931143 | ORDER_INTENT | id=TEST-BLOCK5-17 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.953141 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.954140 | ORDER_INTENT | id=TEST-BLOCK5-18 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:03.976141 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | qty=0.5
+2025-10-22T23:06:03.977141 | ORDER_INTENT | id=TEST-BLOCK5-19 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK5
+2025-10-22T23:06:18.694880 | RISK_OK | id=TEST-BLOCK5-0 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:18.873893 | RISK_OK | id=TEST-BLOCK5-1 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:19.074882 | RISK_OK | id=TEST-BLOCK5-2 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:19.365884 | RISK_OK | id=TEST-BLOCK5-3 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:19.600405 | RISK_OK | id=TEST-BLOCK5-4 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:19.778410 | RISK_OK | id=TEST-BLOCK5-5 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:19.961405 | RISK_OK | id=TEST-BLOCK5-6 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:20.139406 | RISK_OK | id=TEST-BLOCK5-7 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:20.333713 | RISK_OK | id=TEST-BLOCK5-8 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:20.512723 | RISK_OK | id=TEST-BLOCK5-9 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:20.718711 | RISK_OK | id=TEST-BLOCK5-10 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:20.921709 | RISK_OK | id=TEST-BLOCK5-11 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:21.138709 | RISK_OK | id=TEST-BLOCK5-12 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:21.482714 | RISK_OK | id=TEST-BLOCK5-13 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:21.661709 | RISK_OK | id=TEST-BLOCK5-14 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:21.837223 | RISK_OK | id=TEST-BLOCK5-15 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:22.012218 | RISK_OK | id=TEST-BLOCK5-16 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:22.187802 | RISK_OK | id=TEST-BLOCK5-17 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:22.372330 | RISK_OK | id=TEST-BLOCK5-18 | symbol=SPY | block_id=BLOCK5
+2025-10-22T23:06:22.551860 | RISK_OK | id=TEST-BLOCK5-19 | symbol=SPY | block_id=BLOCK5

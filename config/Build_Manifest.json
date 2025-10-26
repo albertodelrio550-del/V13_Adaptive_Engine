@@ -1,0 +1,50 @@
+{
+  "build_id": "V13.2025.10.20.01",
+  "build_name": "V13_Adaptive_Manual_Trading_Engine",
+  "release_date": "2025-10-20",
+  "mode": "PAPER",
+  "author": "Commander V",
+  "verified": true,
+  "core_modules": [
+    "V13_LaunchSequence.py",
+    "V13_TelemetryFusion.py",
+    "V13_AdaptiveCycle.py",
+    "V13_RiskSentinel.py",
+    "V13_DoctrineFeedbackLoop.py",
+    "V13_PerformanceTracker.py",
+    "V13_SessionAudit.py",
+    "V13_CommanderMonitor.py"
+  ],
+  "documentation": [
+    "Assassins_Plan_V12.1_v4.txt",
+    "Avengers_Plan_V12.1_v4_Expanded.txt",
+    "Master_README_V12.1_v4.txt",
+    "README_v12_1_v5_refined.txt"
+  ],
+  "config_files": [
+    "V13_Config.ini",
+    "User_Profile.cfg",
+    "Integrity_HashList.md5",
+    "Build_Manifest.json"
+  ],
+  "data_files": [
+    "V13_DataMap.json",
+    "Telemetry_Config.yaml",
+    "Session_Audit_Log.db",
+    "CrashGuard_EventLog.csv"
+  ],
+  "hash_verification": {
+    "enabled": true,
+    "last_verified": "none",
+    "auto_abort_on_mismatch": true
+  },
+  "update_policy": {
+    "allow_auto_update": true,
+    "allow_manual_override": true,
+    "update_channel": "stable"
+  },
+  "next_milestone": {
+    "phase": "Phase_2_Data",
+    "target_date": "2025-10-22"
+  }
+}

@@ -1,0 +1,83 @@
+# ============================================================
+# V13 COMMANDER VISUAL INTELLIGENCE — EXTENDED MONITOR
+# Build: V13.2025.10.21.01
+# ============================================================
+
+from datetime import datetime, timezone
+from colorama import Fore, Style, init
+import json, os, random, time
+
+init(autoreset=True)
+
+PERFORMANCE_PATH = "data/doctrine_performance.json"
+
+def load_performance():
+    try:
+        with open(PERFORMANCE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
+def performance_color(acc):
+    if acc >= 0.8: return Fore.GREEN
+    elif acc >= 0.65: return Fore.YELLOW
+    return Fore.RED
+
+def draw_minimap(active):
+    grid = [
+        ["Fabio","Marco","Tanja"],
+        ["TG_Capital","Kane","Mayne"],
+        ["Umar","",""]
+    ]
+    print(Fore.LIGHTWHITE_EX + "\n+------------------ [TACTICAL GRID] ------------------+")
+    for row in grid:
+        line = ""
+        for name in row:
+            if not name: continue
+            symbol = "🟢" if name==active else random.choice(["🔵","🟡","🟠","🟣"])
+            line += f"[{name[:6]:<6}] {symbol}  "
+        print(line)
+    print("+----------------------------------------------------+")
+
+def commander_speech(active, vol, phase, discipline):
+    events = [
+        f"{active} Doctrine engaging field — volatility {vol}.",
+        f"{active} reports phase shift → {phase}.",
+        f"Umar confirms discipline stability at {discipline}%.",
+        f"Commander authorizes controlled aggression pattern.",
+        f"RiskSentinel recalibrating limits post-cycle scan."
+    ]
+    print(Fore.MAGENTA + Style.BRIGHT + f"\n🎙️  {random.choice(events)}\n")
+
+def render_monitor():
+    perf = load_performance()
+    if not perf:
+        print("[V13] No performance data found. Using simulated mode.")
+        perf = {d:{"accuracy":random.uniform(0.6,0.9),"PnL":random.randint(50,200),"sessions":random.randint(3,12)} for d in ["Fabio","Marco","Tanja","TG_Capital","Kane","Mayne","Umar"]}
+
+    active = max(perf, key=lambda k: perf[k]["accuracy"])
+    vol = round(random.uniform(0.9,2.4),2)
+    phase = random.choice(["Accumulation","Manipulation","Distribution"])
+    discipline = random.randint(70,95)
+
+    print(Fore.WHITE + Style.BRIGHT + "\n==================== [COMMANDER VISUAL PANEL] ====================")
+    print(Fore.LIGHTBLACK_EX + f"UTC Time: {datetime.now(timezone.utc).strftime('%H:%M:%S')} | Active Doctrine: {Fore.CYAN}{active} {Fore.WHITE}| AMD Phase: {Fore.YELLOW}{phase}")
+    print(Fore.LIGHTBLACK_EX + "------------------------------------------------------------------")
+
+    # Doctrine performance table
+    print(Fore.LIGHTWHITE_EX + "Doctrine        | Accuracy | PnL($) | Sessions | Status")
+    print(Fore.LIGHTBLACK_EX + "-------------------------------------------------------")
+    for d,v in perf.items():
+        col = performance_color(v.get("accuracy",0.5))
+        status = "ACTIVE" if d==active else "IDLE"
+        print(f"{col}{d:<14}{Fore.WHITE}| {v['accuracy']*100:>6.1f}% | {v['PnL']:>6} | {v['sessions']:>8} | {status}")
+    print(Fore.LIGHTBLACK_EX + "-------------------------------------------------------")
+
+    draw_minimap(active)
+    commander_speech(active, vol, phase, discipline)
+
+for cycle in range(3):
+    render_monitor()
+    time.sleep(2)
+
+print(Fore.GREEN + Style.BRIGHT + "\n[V13] Commander Visual Intelligence Monitor Complete.\n")

@@ -1,0 +1,27 @@
+============================================================
+# V13 DOCTRINE INTEGRATION ROADMAP
+# Build: V13.2025.10.21.01
+# Mode: PAPER (Development & Verification)
+# Phase: 5 → Transition to Phase 6 — Live-Readiness Design
+# ============================================================
+
+PURPOSE:
+    Define the full operational roadmap for integrating all seven active doctrines into the
+    V13 Adaptive Doctrine Matrix (ADM). This file establishes architecture flow, data linkage,
+    performance learning systems, and operator development synchronization.
+
+------------------------------------------------------------
+1. DOCTRINE OVERVIEW
+------------------------------------------------------------
+ACTIVE DOCTRINES:
+    [1] Fabio Doctrine        → Adaptive Market Logic & Balance Detection
+    [2] Marco Doctrine        → Liquidity Trap & Reversal Framework
+    [3] Tanja Doctrine        → AMD Cycle (Accumulation → Manipulation → Distribution)
+    [4] TG Doctrine           → Structured Timing & EMA Pattern (London Kill Zone)
+    [5] Kane Doctrine         → Cross-Market SMT Divergence + PO3 Cycle
+    [6] Mayne Doctrine        → Structure & OTE (Optimal Trade Entry)
+    [7] Umar Doctrine         → Human Discipline & Trader Maturity Framework
+
+OBJECTIVE:
+    Build an Adaptive Doctrine Matrix (ADM) that dynamically routes control to the most
+    relevant doctrine based on telemetry, volatility, time window, and trader maturity level.

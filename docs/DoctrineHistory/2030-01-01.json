@@ -1,0 +1,14 @@
+{
+  "date": "2030-01-01",
+  "generated_at": "2030-01-01T00:00:00+00:00",
+  "suggestions": {
+    "Assassin_stop_usd": 2.5
+  },
+  "reasoning": {
+    "Assassin_stop_usd": "test"
+  },
+  "accepted": true,
+  "reviewed_at": "2025-10-22T01:00:00+00:00",
+  "reviewer": "Tester",
+  "source": "test"
+}

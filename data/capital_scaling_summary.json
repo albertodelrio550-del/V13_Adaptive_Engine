@@ -1,0 +1,12 @@
+{
+  "generated_at": "2025-10-23T08:59:31.183884+00:00",
+  "scaling": {
+    "block_count": 3,
+    "gross_capital": 15000.0,
+    "target_daily_pnl": 150.0,
+    "max_drawdown": -300.0,
+    "risk_per_trade_usd": 112.5,
+    "risk_per_trade_pct": 0.75,
+    "per_block_risk_usd": 37.5
+  }
+}

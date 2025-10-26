@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "as_of": "2025-10-23T01:46:28.585473+00:00",
+  "tests": {
+    "test_latency": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "report": {
+        "status": "PASS",
+        "message": "Latency within tolerance",
+        "details": {
+          "per_block": {
+            "BLOCK1": {
+              "count": 12,
+              "avg": 23.583333333333332,
+              "max": 38.0
+            },
+            "BLOCK2": {
+              "count": 10,
+              "avg": 21.2,
+              "max": 25.0
+            },
+            "BLOCK3": {
+              "count": 11,
+              "avg": 20.90909090909091,
+              "max": 25.0
+            }
+          },
+          "avg_latency_ms": 21.96969696969697,
+          "max_latency_ms": 38.0,
+          "sample_count": 33,
+          "threshold_avg_ms": 500,
+          "threshold_max_ms": 1000
+        },
+        "generated_at": "2025-10-23T01:46:27.891356+00:00"
+      }
+    },
+    "test_risk_caps": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "report": {
+        "status": "PASS",
+        "message": "Risk caps respected",
+        "details": {
+          "global": {
+            "drawdown": 0.0,
+            "cap": 5.0,
+            "breach": false
+          },
+          "local_breaches": [],
+          "block_count": 0
+        },
+        "generated_at": "2025-10-23T01:46:28.064380+00:00"
+      }
+    },
+    "test_sync_integrity": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "report": {
+        "status": "PASS",
+        "message": "SyncLoop status within tolerance",
+        "details": {
+          "history_length": 0,
+          "last_timestamp": null,
+          "stale": false,
+          "issues": []
+        },
+        "generated_at": "2025-10-23T01:46:28.224366+00:00"
+      }
+    },
+    "test_adaptive_weights": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "report": {
+        "status": "PASS",
+        "message": "Adaptive allocation history consistent",
+        "details": {
+          "entries_checked": 25,
+          "latest_entry": {
+            "timestamp": "2025-10-23T01:26:44.206854+00:00",
+            "block_id": "BLOCK1",
+            "allocation": {
+              "Assassins": 0.6,
+              "Avengers": 0.4
+            },
+            "context": {
+              "volatility": 0.25,
+              "trend": 0.05,
+              "score": {
+                "block_id": "BLOCK1",
+                "samples": 1,
+                "volatility": 0.15,
+                "trend_strength": 0.15,
+                "classification": "LOW_VOL"
+              }
+            },
+            "reason": "phase6_low_vol"
+          },
+          "breaches": []
+        },
+        "generated_at": "2025-10-23T01:46:28.385366+00:00"
+      }
+    },
+    "test_audit_hash": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "report": {
+        "status": "PASS",
+        "message": "Audit seal verified",
+        "details": {
+          "entries_checked": 3,
+          "composite_present": true,
+          "mismatches": []
+        },
+        "generated_at": "2025-10-23T01:46:28.554476+00:00"
+      }
+    }
+  },
+  "performance_summary": {
+    "blocks": 2,
+    "path": "data\\performance_summary.json"
+  },
+  "replay_results": {
+    "count": 2,
+    "path": "data\\replay_results.json"
+  },
+  "learning_mode": true,
+  "consecutive_failures": 0,
+  "daily_changes": 1,
+  "daily_change_allowance": 2,
+  "last_accepted_date": "2030-01-01",
+  "doctrine_report": "docs\\DoctrineReports\\2025-10-23.txt",
+  "doctrine_update": "docs\\DoctrineUpdates\\doctrine_update_2025-10-23.json",
+  "rl_actions": {
+    "trail_pct": 0.2884,
+    "stop_pct": 0.2884,
+    "capital_split": 0.2884
+  },
+  "rl_reward": 0.8665,
+  "rl_policy": "data\\policy.json"
+}

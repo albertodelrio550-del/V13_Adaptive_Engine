@@ -1,0 +1,160 @@
+# ============================================================
+# V13 PLAYBOOK — TRADER MAYNE DOCTRINE INTEGRATION FILE
+# Build: V13.2025.10.21.01
+# Mode: PAPER (Simulated Data)
+# Phase: 5 — Directional Bias & Structure Synchronization
+# ============================================================
+
+1. DOCTRINE OVERVIEW
+------------------------------------------------------------
+Origin: Trader Mayne “Structure + OTE Precision Playbook” — Apr 2025.
+Focus: Top-Down Market Structure, POI Selection, and Optimal Trade Entry (OTE).
+Purpose: Teach V13 to define directional bias via structural breaks and engage trades only at
+institutional POIs, confirmed by breaker patterns or displacement gaps.
+
+Doctrine Mission:
+    Convert human discretionary structure logic into programmable market context analysis.
+    Align V13’s entry conditions with high-probability POI zones across multiple timeframes.
+
+------------------------------------------------------------
+2. CORE PRINCIPLES
+------------------------------------------------------------
+1. Multi-Timeframe Analysis:
+    - Determine HTF (4H / Daily) directional bias via Market Structure Break (MSB).
+    - Execute only in alignment with confirmed structural direction.
+2. POI Selection:
+    - Identify Fair Value Gaps (FVG), Breaker Blocks, and Order Blocks in bias direction.
+3. OTE Entry Logic:
+    - Entry on retracement between 62–79% Fibonacci range of prior impulse.
+    - Confirmation candle required at or within POI.
+4. Structure Rules:
+    - Bullish Bias: HH-HL sequence intact.
+    - Bearish Bias: LL-LH sequence intact.
+    - Structural invalidation cancels entry authorization.
+
+------------------------------------------------------------
+3. SYSTEM INTEGRATION MAP
+------------------------------------------------------------
+Module: V13_TelemetryFusion
+    → Detects top-down structure (HTF MSB, LTF confirmation).
+    → Monitors active POI zones from multi-timeframe feeds.
+
+Module: V13_AdaptiveCycle
+    → Calculates 62–79% retracement zone.
+    → Validates breaker and FVG alignment before enabling execution.
+    → Confirms confluence with RiskSentinel before trade initiation.
+
+Module: V13_RiskSentinel
+    → Applies dynamic stop distance relative to liquidity sweep.
+    → Disables widening behavior during POI retest.
+
+Module: V13_DoctrineFeedbackLoop
+    → Logs structure alignment accuracy.
+    → Tracks entry validity and bias consistency over rolling sessions.
+
+------------------------------------------------------------
+4. TRADE MODEL TRANSLATION
+------------------------------------------------------------
+MODEL 1: STRUCTURE-BASED OTE ENTRY
+------------------------------------------------------------
+Conditions:
+    - Daily or 4H defines directional bias via MSB.
+    - 1H or 15M identifies retracement into POI (OB, FVG, Breaker).
+    - Retracement aligns with 62–79% Fibonacci range.
+
+Entry Trigger:
+    - Confirmation candle forms at POI within OTE zone.
+    - Displacement or breaker confirmation must occur (volume + structure shift).
+
+Stop Loss:
+    - Below POI low (for longs) or above POI high (for shorts).
+    - 1–2 tick volatility buffer allowed.
+
+Target:
+    - 2–3R to initial HTF objective.
+    - Optional trail beyond prior structural pivot.
+
+Operational Notes:
+    - Avoid entry before 09:30 EST or during major economic events.
+    - Execute only within confirmed directional bias.
+
+------------------------------------------------------------
+5. ADAPTIVE LOGIC FLOW (V13_AdaptiveCycle)
+------------------------------------------------------------
+[Directional Bias Engine — PAPER MODE]
+1. Define Daily/4H trend via structure breaks.
+2. Calculate OTE retracement zone for last impulse leg.
+3. Confirm POI confluence (OB, FVG, Breaker alignment).
+4. Validate candle confirmation at OTE midpoint.
+5. Authorize entry trigger → send to CommanderMonitor.
+6. Monitor structure integrity during trade (no bias reversal allowed).
+
+------------------------------------------------------------
+6. RISK SENTINEL ALIGNMENT
+------------------------------------------------------------
+RiskSentinel Parameters:
+    - Per-trade risk = 0.4%.
+    - Max session DD = 1.5%.
+    - Stop = POI low/high ± volatility buffer.
+    - Disable breakeven until +2R reached.
+    - Auto-cooldown = 20m after bias invalidation.
+
+------------------------------------------------------------
+7. MANAGEMENT & EXIT RULES
+------------------------------------------------------------
+Entry Management:
+    - Reduce position by 50% at +2R.
+    - Move stop to breakeven after breaker structure confirmation.
+    - Full close at 3R unless bias continues favorably.
+
+Exit Triggers:
+    - Opposite MSB on 1H → Full exit.
+    - EMA 9–21 crossover opposite bias.
+    - HTF breaker invalidation.
+
+------------------------------------------------------------
+8. PERFORMANCE OBJECTIVES
+------------------------------------------------------------
+Expected PAPER Results:
+    - Average R:R = 1:3 to 1:4.
+    - Win rate: 70–80% under clean structural bias.
+    - Trade frequency: 2–4 per week per asset.
+    - Structure detection accuracy ≥ 90%.
+
+------------------------------------------------------------
+9. PSYCHOLOGICAL & BEHAVIORAL FLAGS
+------------------------------------------------------------
+Behavior Encoding:
+    - patience.flag = TRUE → Wait for structural confluence.
+    - overtrade.block = ENABLED → Prevent multiple OTE entries per impulse.
+    - confirmation.guard = ACTIVE → Entry only on confirmed breaker close.
+    - bias.protection = TRUE → Trades must follow dominant structure.
+
+------------------------------------------------------------
+10. SIMULATION CHECKPOINTS
+------------------------------------------------------------
+PAPER Validation Sequence:
+    1. Simulate Daily/4H bias detection.
+    2. Identify 3 OTE zones per instrument.
+    3. Execute test trades at valid POIs.
+    4. Confirm structural alignment and FVG presence.
+    5. Validate stop behavior and target accuracy.
+
+Expected PAPER Metrics:
+    - Win rate ≥ 70%.
+    - Mean profit factor ≥ 2.8.
+    - No invalid trades outside bias direction.
+
+------------------------------------------------------------
+11. INTEGRATION SUMMARY
+------------------------------------------------------------
+✅ HTF-LTF structure recognition integrated via TelemetryFusion.
+✅ OTE and POI confluence logic added to AdaptiveCycle.
+✅ RiskSentinel enhanced for POI stop logic.
+✅ FeedbackLoop tracking structural consistency.
+✅ PAPER verification authorized.
+
+Doctrine Status: ACTIVE (PAPER Mode)
+
+"Structure defines direction — precision defines entry."
+# ============================================================

@@ -1,0 +1,44 @@
+# ============================================================
+# V13 Adaptive Manual Trading Engine — Integrity Hash Ledger
+# Build_ID: V13.2025.10.20.01
+# Location: /Videos/bohrn 2025/trade/V13/config/Integrity_HashList.md5
+# ------------------------------------------------------------
+# Each entry: <HASH> <RELATIVE_PATH>
+# Generated automatically by V13_SessionAudit.py at runtime.
+# Manual editing is discouraged.
+# ============================================================
+
+# --- CORE MODULES ---
+[CORE]
+00000000000000000000000000000000  ../core/V13_LaunchSequence.py
+00000000000000000000000000000000  ../core/V13_TelemetryFusion.py
+00000000000000000000000000000000  ../core/V13_AdaptiveCycle.py
+00000000000000000000000000000000  ../core/V13_RiskSentinel.py
+00000000000000000000000000000000  ../core/V13_DoctrineFeedbackLoop.py
+00000000000000000000000000000000  ../core/V13_PerformanceTracker.py
+00000000000000000000000000000000  ../core/V13_SessionAudit.py
+00000000000000000000000000000000  ../core/V13_CommanderMonitor.py
+
+# --- CONFIG FILES ---
+[CONFIG]
+00000000000000000000000000000000  ../config/V13_Config.ini
+00000000000000000000000000000000  ../config/User_Profile.cfg
+00000000000000000000000000000000  ../config/Build_Manifest.json
+
+# --- DATA & TELEMETRY ---
+[DATA]
+00000000000000000000000000000000  ../data/V13_DataMap.json
+00000000000000000000000000000000  ../data/Telemetry_Config.yaml
+00000000000000000000000000000000  ../logs/Session_Audit_Log.db
+00000000000000000000000000000000  ../logs/CrashGuard_EventLog.csv
+
+# --- DOCUMENTATION ---
+[DOCS]
+00000000000000000000000000000000  ../docs/Assassins_Plan_V12.1_v4.txt
+00000000000000000000000000000000  ../docs/Avengers_Plan_V12.1_v4_Expanded.txt
+00000000000000000000000000000000  ../docs/Master_README_V12.1_v4.txt
+00000000000000000000000000000000  ../docs/README_v12_1_v5_refined.txt
+
+# ============================================================
+# END OF FILE
+# ============================================================

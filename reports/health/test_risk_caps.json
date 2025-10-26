@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "message": "Risk caps respected",
+  "details": {
+    "global": {
+      "drawdown": 0.0,
+      "cap": 5.0,
+      "breach": false
+    },
+    "local_breaches": [],
+    "block_count": 0
+  },
+  "generated_at": "2025-10-23T01:46:28.064380+00:00"
+}

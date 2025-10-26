@@ -1,0 +1,35 @@
+BLOCK3 audit line
+another event
+2025-10-23T01:26:44.949857+00:00 | ORDER_INTENT | id=TEST-BLOCK3-0 | symbol=SPY | qty=0.5
+2025-10-23T01:26:44.950858+00:00 | ORDER_INTENT | id=TEST-BLOCK3-0 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:44.974862+00:00 | ORDER_INTENT | id=TEST-BLOCK3-1 | symbol=SPY | qty=0.5
+2025-10-23T01:26:44.982858+00:00 | ORDER_INTENT | id=TEST-BLOCK3-1 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:44.999857+00:00 | ORDER_INTENT | id=TEST-BLOCK3-2 | symbol=SPY | qty=0.5
+2025-10-23T01:26:45.000859+00:00 | ORDER_INTENT | id=TEST-BLOCK3-2 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:45.015859+00:00 | ORDER_INTENT | id=TEST-BLOCK3-3 | symbol=SPY | qty=0.5
+2025-10-23T01:26:45.016859+00:00 | ORDER_INTENT | id=TEST-BLOCK3-3 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:45.032858+00:00 | ORDER_INTENT | id=TEST-BLOCK3-4 | symbol=SPY | qty=0.5
+2025-10-23T01:26:45.033858+00:00 | ORDER_INTENT | id=TEST-BLOCK3-4 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:45.052859+00:00 | ORDER_INTENT | id=TEST-BLOCK3-5 | symbol=SPY | qty=0.5
+2025-10-23T01:26:45.053859+00:00 | ORDER_INTENT | id=TEST-BLOCK3-5 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:45.071858+00:00 | ORDER_INTENT | id=TEST-BLOCK3-6 | symbol=SPY | qty=0.5
+2025-10-23T01:26:45.072860+00:00 | ORDER_INTENT | id=TEST-BLOCK3-6 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:45.092858+00:00 | ORDER_INTENT | id=TEST-BLOCK3-7 | symbol=SPY | qty=0.5
+2025-10-23T01:26:45.093859+00:00 | ORDER_INTENT | id=TEST-BLOCK3-7 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:45.112859+00:00 | ORDER_INTENT | id=TEST-BLOCK3-8 | symbol=SPY | qty=0.5
+2025-10-23T01:26:45.113858+00:00 | ORDER_INTENT | id=TEST-BLOCK3-8 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:45.132856+00:00 | ORDER_INTENT | id=TEST-BLOCK3-9 | symbol=SPY | qty=0.5
+2025-10-23T01:26:45.133858+00:00 | ORDER_INTENT | id=TEST-BLOCK3-9 | symbol=SPY | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:47.428857+00:00 | RISK_OK | id=TEST-BLOCK3-0 | symbol=SPY | block_id=BLOCK3
+2025-10-23T01:26:47.523860+00:00 | RISK_OK | id=TEST-BLOCK3-1 | symbol=SPY | block_id=BLOCK3
+2025-10-23T01:26:47.631856+00:00 | RISK_OK | id=TEST-BLOCK3-2 | symbol=SPY | block_id=BLOCK3
+2025-10-23T01:26:47.739859+00:00 | RISK_OK | id=TEST-BLOCK3-3 | symbol=SPY | block_id=BLOCK3
+2025-10-23T01:26:47.848858+00:00 | RISK_OK | id=TEST-BLOCK3-4 | symbol=SPY | block_id=BLOCK3
+2025-10-23T01:26:47.956862+00:00 | RISK_OK | id=TEST-BLOCK3-5 | symbol=SPY | block_id=BLOCK3
+2025-10-23T01:26:48.079858+00:00 | RISK_OK | id=TEST-BLOCK3-6 | symbol=SPY | block_id=BLOCK3
+2025-10-23T01:26:48.185855+00:00 | RISK_OK | id=TEST-BLOCK3-7 | symbol=SPY | block_id=BLOCK3
+2025-10-23T01:26:48.292856+00:00 | RISK_OK | id=TEST-BLOCK3-8 | symbol=SPY | block_id=BLOCK3
+2025-10-23T01:26:48.392858+00:00 | RISK_OK | id=TEST-BLOCK3-9 | symbol=SPY | block_id=BLOCK3
+2025-10-23T01:26:48.532423+00:00 | ORDER_INTENT | id=EXP-TSLA-1 | symbol=TSLA | qty=0.5
+2025-10-23T01:26:48.533430+00:00 | ORDER_INTENT | id=EXP-TSLA-1 | symbol=TSLA | side=buy | qty=0.5 | strategy=assassin | reason=None | signal_price=None | allocation_weight=0.5 | block_id=BLOCK3
+2025-10-23T01:26:48.794426+00:00 | RISK_OK | id=EXP-TSLA-1 | symbol=TSLA | intent_value=35.0 | gross_now=140.0 | max_gross=180.0 | block_id=BLOCK3

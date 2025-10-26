@@ -1,0 +1,172 @@
+# ============================================================
+# V13 PLAYBOOK — MARCO DOCTRINE INTEGRATION FILE
+# Build: V13.2025.10.21.01
+# Mode: PAPER (Simulated Data)
+# Phase: 5 — Liquidity Behavior Integration
+# ============================================================
+
+1. DOCTRINE OVERVIEW
+------------------------------------------------------------
+Origin: Marco Trades “Liquidity Playbook” (Apr 2025)
+Focus: Price Action Reversal through Liquidity Sweeps and Trap Formation.
+Purpose: Translate liquidity-based trading logic into V13’s behavioral system.
+Applies to: V13_AdaptiveCycle, V13_RiskSentinel, V13_ManualOverride, and DoctrineFeedbackLoop.
+
+This doctrine enhances V13’s understanding of market traps, stop runs, and reversal setups — enabling smarter reactions to liquidity events.
+
+------------------------------------------------------------
+2. CORE PRINCIPLES
+------------------------------------------------------------
+The market seeks liquidity. Price moves to trigger stops (external liquidity) and reverses once trapped participants are caught.
+
+Trade entry conditions:
+    1. Liquidity identified (equal highs/lows or respected structure).
+    2. Price sweeps liquidity and returns inside range.
+    3. Trap confirmation through internal structure failure or false breakout.
+    4. Directional bias established post-liquidity event.
+
+Execution occurs **after** liquidity is taken, never before.
+
+------------------------------------------------------------
+3. SYSTEM INTEGRATION MAP
+------------------------------------------------------------
+Module: V13_AdaptiveCycle
+    → Detects liquidity zones using telemetry + price cluster data.
+    → Marks structural highs/lows for potential trap formation.
+    → Switches state to “Liquidity Watch Mode” upon volatility compression + prior equal levels.
+
+Module: V13_RiskSentinel
+    → Enforces stop placement just beyond swept liquidity.
+    → Prevents premature break-even adjustments.
+    → Validates that stop distance aligns with trap structure (1–2 ticks buffer).
+
+Module: V13_ManualOverride
+    → Allows Commander confirmation of liquidity triggers before engagement.
+    → Displays alerts such as “Liquidity Sweep Detected — Await Confirmation.”
+
+Module: V13_DoctrineFeedbackLoop
+    → Records success rates of liquidity-based reversals.
+    → Adjusts future bias weighting (Liquidity Bias Index).
+
+------------------------------------------------------------
+4. TRADE MODEL TRANSLATION
+------------------------------------------------------------
+MODEL 1: SELL TRAP (Liquidity Above High → Short Reversal)
+------------------------------------------------------------
+Conditions:
+    - Identify prior high respected and caused move away.
+    - Wait for price to trade above that high (liquidity taken).
+    - Confirm internal structure shift (false breakout reaction).
+
+Entry Trigger:
+    - Enter short only **after** rejection candle closes back below liquidity level.
+    - Confirm volume reduction and failed continuation attempt.
+
+Stop Loss:
+    - Place above the high that was swept.
+    - 1–2 tick buffer to absorb residual volatility.
+
+Target:
+    - Equal lows or prior liquidity pocket below.
+
+Operational Notes:
+    - Execute during high-liquidity sessions (New York Open preferred).
+    - Skip trades outside primary time window.
+    - Avoid early entries before liquidity run completes.
+
+MODEL 2: BUY TRAP (Liquidity Below Low → Long Reversal)
+------------------------------------------------------------
+Conditions:
+    - Identify low that caused a move away (created liquidity below).
+    - Wait for price to run below that low (stop sweep event).
+    - Confirm failure to extend lower → internal structure reclaim.
+
+Entry Trigger:
+    - Enter long once price reclaims above swept level.
+    - Confirmation: reduction in sell aggression or shift in footprint delta.
+
+Stop Loss:
+    - Below the low just taken.
+    - Small 1–2 tick buffer for volatility.
+
+Target:
+    - Liquidity resting at highs or value edge above.
+
+Operational Notes:
+    - Use primarily during London or New York open.
+    - Avoid setups formed during low-volume hours.
+
+------------------------------------------------------------
+5. ADAPTIVE LOGIC FLOW (V13_AdaptiveCycle)
+------------------------------------------------------------
+1. Detect liquidity structure via TelemetryFusion feed.
+    - If equal highs/lows persist > 3 bars → flag as liquidity zone.
+2. Monitor for stop-run events (spike > 0.5% beyond zone).
+3. Confirm reversal structure (trap formed).
+4. Activate Liquidity Reversal Model.
+5. Send confirmation request to ManualOverride (Commander validation).
+6. Execute simulated trade after confirmation.
+7. Track PnL via PerformanceTracker.
+
+------------------------------------------------------------
+6. RISK SENTINEL ALIGNMENT
+------------------------------------------------------------
+RiskSentinel enforces:
+    - Per trade risk ≤ 0.5% of account.
+    - Stop beyond liquidity edge only.
+    - No partial close before reaching next liquidity target.
+    - No trade execution if liquidity density < threshold.
+    - Auto-cooldown 20m after 2 failed reversals.
+
+------------------------------------------------------------
+7. MANAGEMENT LOGIC
+------------------------------------------------------------
+Trade management via CommandMatrix:
+    - Stops adjusted only after confirmed structure shift (higher low / lower high).
+    - Break-even allowed only after partial taken at verified liquidity zone.
+    - Trailing stops disallowed until profit ≥ +3R.
+
+------------------------------------------------------------
+8. PSYCHOLOGICAL & BEHAVIORAL FLAGS
+------------------------------------------------------------
+Behavioral rules encoded:
+    - Patience enforcement: No trades before liquidity event.
+    - Trap confirmation delay: minimum 2-bar rule.
+    - No early exit before liquidity completion.
+    - Human override: ALLOWED.
+
+Behavior Tags:
+    - liquidity.mode = ENABLED
+    - patience.flag = TRUE
+    - confirmation.guard = ACTIVE
+    - human_override = ALLOWED
+
+------------------------------------------------------------
+9. SIMULATION CHECKPOINTS
+------------------------------------------------------------
+PAPER Mode Validation Sequence:
+    1. Load simulated feed (BTC/USDT or ES Futures).
+    2. Mark 3 equal-high zones and 3 equal-low zones.
+    3. Trigger artificial stop-runs.
+    4. Confirm reversal detection and manual validation steps.
+    5. Verify stop placement logic and profit target triggers.
+    6. Audit via SessionAudit output (JSON confirmation).
+
+Expected PAPER Results:
+    - 60–75% trap confirmation accuracy.
+    - Average R:R ratio: 1:3 → 1:4.
+    - Avg trade frequency: 3–5/day per instrument.
+
+------------------------------------------------------------
+10. INTEGRATION SUMMARY
+------------------------------------------------------------
+✅ Liquidity detection active in AdaptiveCycle.
+✅ Stop logic reinforced via RiskSentinel.
+✅ Manual confirmation supported via CommandMatrix.
+✅ FeedbackLoop tracking success rate.
+✅ PAPER verification authorized.
+
+Doctrine Status: ACTIVE (PAPER Mode)
+
+"Patience defines precision. Liquidity defines opportunity."
+# ============================================================

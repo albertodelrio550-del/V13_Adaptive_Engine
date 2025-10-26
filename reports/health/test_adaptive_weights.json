@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "message": "Adaptive allocation history consistent",
+  "details": {
+    "entries_checked": 25,
+    "latest_entry": {
+      "timestamp": "2025-10-23T01:26:44.206854+00:00",
+      "block_id": "BLOCK1",
+      "allocation": {
+        "Assassins": 0.6,
+        "Avengers": 0.4
+      },
+      "context": {
+        "volatility": 0.25,
+        "trend": 0.05,
+        "score": {
+          "block_id": "BLOCK1",
+          "samples": 1,
+          "volatility": 0.15,
+          "trend_strength": 0.15,
+          "classification": "LOW_VOL"
+        }
+      },
+      "reason": "phase6_low_vol"
+    },
+    "breaches": []
+  },
+  "generated_at": "2025-10-23T01:46:28.385366+00:00"
+}

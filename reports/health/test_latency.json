@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "message": "Latency within tolerance",
+  "details": {
+    "per_block": {
+      "BLOCK1": {
+        "count": 12,
+        "avg": 23.583333333333332,
+        "max": 38.0
+      },
+      "BLOCK2": {
+        "count": 10,
+        "avg": 21.2,
+        "max": 25.0
+      },
+      "BLOCK3": {
+        "count": 11,
+        "avg": 20.90909090909091,
+        "max": 25.0
+      }
+    },
+    "avg_latency_ms": 21.96969696969697,
+    "max_latency_ms": 38.0,
+    "sample_count": 33,
+    "threshold_avg_ms": 500,
+    "threshold_max_ms": 1000
+  },
+  "generated_at": "2025-10-23T01:46:27.891356+00:00"
+}

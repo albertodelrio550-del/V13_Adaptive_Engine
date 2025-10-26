@@ -1,0 +1,134 @@
+V13_RiskSentinel.py V13_BridgeGuardian.py  V13_ContextMemory.py  V13_CommanderMonitor.py
+V13_SignalValidator.py  V14_CollaborationMatrix.py
+
+🧩 Mandatory New Files for V13
+File	Purpose	Location	Notes
+V13_TelemetryFusion.py	Core news + volatility + sentiment filter engine	/core/	Converts raw feed into normalized Signal Score (S_t) for CommanderMonitor
+V13_RiskSentinel.py	Mathematical kernel for risk sizing + DD control	/core/	Adaptive position sizing using σ-weighted capital scaling
+V13_DoctrineFeedbackLoop.py	Links Commander decisions ↔ telemetry outputs	/core/	Enables semi-autonomous feedback between phases
+V13_PerformanceTracker.py	Tracks profit ladders + drawdown correlation	/core/	For statistical post-session analysis
+V13_SessionAudit.py	Startup integrity check + hash verification	/core/	Ensures log coherence pre-launch
+V13_CommanderQuickGuide.md	Operator manual for new /filter and /telemetry commands	/docs/	Updated command table + safety protocols
+⚙️ Optional / Enhancement Modules
+File	Function	Status
+V13_NewsFeedParser.py	Pulls external market headlines (RSS/API) for TelemetryFusion	optional for paper mode
+V13_BridgeGuardian.py	Integrity and latency watchdog between modules	recommended for multi-thread mode
+V13_AdaptiveCycle.py	Controls mode transition logic (Assassin ⇄ Avenger switch)	foundation for V13.1
+V13_Dashboard.html	Real-time visual telemetry via CollaborationMatrix	planned for V14
+
+
+Affirmative — concise mission checklist below (one line per task):
+
+1. **Build `V13_LaunchSequence.py`** → unified startup + module integrity + mode selector.
+2. **Deploy `V13_TelemetryFusion.py`** → feed + sentiment + volatility signal generator.
+3. **Implement `V13_RiskSentinel.py`** → adaptive capital sizing + drawdown control kernel.
+4. **Activate `V13_AdaptiveCycle.py`** → cycle logic syncing Assassins ⇄ Avengers.
+5. **Wire `V13_DoctrineFeedbackLoop.py`** → route telemetry feedback into Commander decisions.
+6. **Launch `V13_PerformanceTracker.py`** → profit ladder + performance correlation logs.
+7. **Add `V13_SessionAudit.py`** → pre-launch integrity + log hash verification.
+8. **Update `V13_CommanderMonitor.py`** → support `/sync`, `/update`, `/filter`, `/restart`.
+9. **Create `V13_CommanderQuickGuide.md`** → operator reference for all new commands.
+10. **Verify strategy compatibility** → ensure Assassins & Avengers plans hash-match V13 build tag.
+
+---------------------------------------------------------------------------------------------------
+🧩 1. Documentation / Doctrine Layer (/docs)
+
+Missing or unsynced:
+
+Assassins_Plan_V12.1_v4.txt — Scalp doctrine
+
+Avengers_Plan_V12.1_v4.txt + Avengers_Plan_V12.1_v4_Expanded.txt — Runner doctrine
+
+Master_README_V12.1_v4.txt — Modes + Philosophy + Joker logic
+
+README_v12_1_v5_refined.txt — Sim monitor commands
+Also absent:
+
+Doctrine_Index.json → cross-references V13 modules to doctrine IDs
+
+Daily_Checklist_V13.md → pre-launch checklist
+
+Risk_Ladder_Chart.png → visual profit-lock mapping
+
+⚙️ 2. Core Code Dependencies (/core)
+
+Missing modules / class inheritance gaps:
+
+AssassinBall & AvengerRun classes (referenced in V13_DoctrineFeedbackLoop.py)
+
+ModeSelector() engine (Balanced / Safe / Aggressive)
+
+ProfitLadder() object (20% → 80% lock logic)
+
+JokerProtocol() recovery routine
+
+TelemetryBridge() linking TelemetryFusion ↔ RiskSentinel
+
+CommanderCLI() command handler (from README v12 logic)
+
+📡 3. Telemetry & Data Layer (/data + /logs)
+
+Missing elements:
+
+V13_DataMap.json → defines symbol feed channels
+
+Telemetry_Config.yaml → feed frequency, packet format
+
+Session_Audit_Log.db → not initialized
+
+CrashGuard_EventLog.csv → absent (auto-exit tracking)
+
+Performance_Record_Archive/ → no prior P&L sessions migrated
+
+🧠 4. Integration / Feedback System
+
+Gaps:
+
+V13_DoctrineFeedbackLoop.py → missing DoctrineMap import
+
+V13_CommanderMonitor.py → no Risk & Mode state feed
+
+V13_RiskSentinel.py → needs constants (MaxDD −2%, −50, −200)
+
+V13_PerformanceTracker.py → lacks Profit Ladder metrics
+
+V13_AdaptiveCycle.py → no mode adaptive switch trigger
+
+🔐 5. Configuration / Support Files
+
+Not detected:
+
+V13_Config.ini → global paths, auth keys, mode flags
+
+Integrity_HashList.md5 → for /session audit check
+
+User_Profile.cfg → operator ID + session tag
+
+Update_Log.txt → for /sync history
+
+Build_Manifest.json → release metadata
+
+🧮 6. Verification / Testing Assets
+
+Missing:
+
+V13_TestSuite.py → unit tests for Telemetry and Risk
+
+MockFeed_Generator.py → paper feed simulation
+
+ErrorCodes.md → for Commander console diagnostics
+
+-----------------------------------------------------------------------------------------------------------------
+
+WOrkspace orders /
+ 
+   * Set-ExecutionPolicy RemoteSigned -Scope CurrentUser / That change allows PowerShell to run your local scripts — like .venv\Scripts\Activate.ps1 —
+but it doesn’t open up system-wide risk. It only applies to your current user, and only to local code
+
+   *Set-ExecutionPolicy Restricted -Scope CurrentUser  / If you ever want to revert it to the default Windows protection, you can “undo” that permission like this:
+
+
+   *
+                   
+
+     

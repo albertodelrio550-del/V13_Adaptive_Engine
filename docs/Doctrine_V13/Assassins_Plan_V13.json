@@ -1,0 +1,46 @@
+{
+  "Doctrine_ID": "TradeA_Assassins_V13",
+  "Version": "V13.0",
+  "Doctrine_Type": "Scalp Operations",
+  "Doctrine_Name": "Assassins_Plan_V13",
+  "Core_Trade": "Trade A",
+  "Mission": "Fast-entry precision strikes aimed at capturing micro-profits (+1 → +10 USD) while maintaining ultra-low exposure time.",
+  "Hierarchy": {
+    "Privates": {
+      "Balls": "1 → 5",
+      "Capital_Percent": 5,
+      "Role": "Quick-lock scalps, rapid entry and exit to secure micro gains (+1 → +2 USD)."
+    },
+    "Specialists": {
+      "Balls": "6 → 8",
+      "Capital_Percent": 10,
+      "Role": "Mid-risk scalps targeting +3 → +5 USD; tighten trail after profit trigger."
+    },
+    "Major": {
+      "Ball": 9,
+      "Capital_Percent": 20,
+      "Role": "Session overseer; reinforces during minor drawdown, locks +10 USD target."
+    },
+    "Joker_Sniper": {
+      "Ball": 10,
+      "Capital_Percent": 25,
+      "Role": "Recovery trigger at −150 USD; executes double-or-nothing rescue strike."
+    }
+  },
+  "Operational_Rules": {
+    "Profit_Lock": "+1 → +2 USD",
+    "Max_Concurrent_Positions": 5,
+    "Drawdown_Tolerance": "Tight (≤ −150 USD trigger for Joker)",
+    "Duration": "≤ 60 seconds typical hold time",
+    "Exit_Condition": "On volatility spike or target hit",
+    "Behavior_Mode": "Auto-assisted manual control"
+  },
+  "Integration_Hooks": {
+    "Telemetry": "V13_TelemetryFusion",
+    "Risk": "V13_RiskSentinel",
+    "Feedback": "V13_DoctrineFeedbackLoop",
+    "Performance": "V13_PerformanceTracker"
+  },
+  "Doctrine_Summary": "Privates secure micro profits, Specialists extend range, Major guards the drawdown, and Joker Sniper restores balance. The Assassins strike fast, retreat early, and preserve capital for the next mission.",
+  "Archive_Note": "Converted from V12.1 V4 legacy scalp plan and refined for V13 Dynamic Doctrine System."
+}

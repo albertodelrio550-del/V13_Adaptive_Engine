@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "message": "Audit seal verified",
+  "details": {
+    "entries_checked": 3,
+    "composite_present": true,
+    "mismatches": []
+  },
+  "generated_at": "2025-10-23T01:46:28.554476+00:00"
+}

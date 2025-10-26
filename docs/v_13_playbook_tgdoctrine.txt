@@ -1,0 +1,146 @@
+# ============================================================
+# V13 PLAYBOOK — TG CAPITAL DOCTRINE INTEGRATION FILE
+# Build: V13.2025.10.21.01
+# Mode: PAPER (Simulated Data)
+# Phase: 5 — Structured Timing & Pattern Integration
+# ============================================================
+
+1. DOCTRINE OVERVIEW
+------------------------------------------------------------
+Origin: TG Capital (Trader Mayne) “High RR Swing Playbook” — Apr 2025
+Focus: Precision swing entries using the Trident Pattern inside the London Kill Zone.
+Purpose: Integrate TG Capital’s timing and EMA-based structure logic into V13’s AdaptiveCycle,
+RiskSentinel, and TelemetryFusion modules for controlled, high R:R setups.
+
+Doctrine Mission:
+    Enforce selective participation, trading only during high-probability windows (London session),
+    aligning multi-timeframe EMAs, Fair Value Gaps (FVGs), and momentum structure to capture
+    extended runs with small risk exposure.
+
+------------------------------------------------------------
+2. CORE PRINCIPLES
+------------------------------------------------------------
+Execution is authorized only when all the following align:
+    1. London Kill Zone active (03:00–06:30 New York Time).
+    2. Trend bias confirmed (price vs 200 EMA).
+    3. EMAs (5, 9, 13, 21) cleanly stacked and not entangled.
+    4. Valid 3-candle FVG forms between 02:30–04:00.
+    5. Doji wick touches FVG midpoint (Consequent Encroachment).
+    6. Confirmation candle closes opposite to doji direction.
+
+No trade is permitted if any above condition is absent.
+
+------------------------------------------------------------
+3. SYSTEM INTEGRATION MAP
+------------------------------------------------------------
+Module: V13_AdaptiveCycle
+    → Detects EMA alignment & FVG formation.
+    → Triggers “Kill Zone Mode” between 03:00–06:30 NY.
+    → Engages TridentPatternValidator for entry validation.
+
+Module: V13_TelemetryFusion
+    → Merges daily trend bias with 30M EMA cluster.
+    → Filters signals outside primary bias direction.
+
+Module: V13_RiskSentinel
+    → Applies contextual stop logic based on FVG candle structure.
+    → Suppresses stop-out during deep liquidity wicks (Gold / XAUUSD).
+
+Module: V13_DoctrineFeedbackLoop
+    → Tracks R:R progression & FVG pattern accuracy.
+    → Adjusts EMA-weight sensitivity dynamically per performance.
+
+------------------------------------------------------------
+4. TRADE MODEL TRANSLATION
+------------------------------------------------------------
+MODEL: TRIDENT ENTRY PATTERN
+------------------------------------------------------------
+Conditions:
+    - Market bias aligned with 200 EMA.
+    - Clean EMA stack in bias direction (5>9>13>21 for longs, inverted for shorts).
+    - Formation of valid 3-candle Fair Value Gap within Kill Zone window.
+
+Entry Sequence:
+    1. Identify 3-candle FVG (valid between 02:30–04:00 NYT).
+    2. Wait for a doji candle with wick into FVG 50% level.
+    3. Confirmation candle closes below (for short) / above (for long) doji extreme.
+    4. Enter on confirmation candle close or limit at midpoint if momentum verified.
+
+Stop Logic:
+    - Below FVG candle low (longs) / above FVG candle high (shorts).
+    - 1–2 tick buffer for wick volatility.
+
+Targeting:
+    - Managed via daily structure bias and EMA integrity.
+    - Trailing begins once profit ≥ +3R.
+    - Close if EMA stack inverts or candle invalidates structure.
+
+------------------------------------------------------------
+5. ADAPTIVE LOGIC FLOW (V13_AdaptiveCycle)
+------------------------------------------------------------
+1. Time Check: Verify London Kill Zone (03:00–06:30 NY).
+2. EMA Validation: Ensure all EMAs stacked correctly.
+3. Pattern Scan: Identify 3-candle FVG pattern.
+4. Wick Confirmation: Validate doji penetration into FVG midpoint.
+5. Confirmation Candle: Require close beyond doji high/low.
+6. Entry Permission: Enable trade signal only if all above true.
+7. RiskSentinel loads contextual stop schema.
+8. TelemetryFusion syncs bias → daily EMA trend check.
+
+------------------------------------------------------------
+6. RISK SENTINEL ALIGNMENT
+------------------------------------------------------------
+RiskSentinel Settings:
+    - Max risk per trade: 0.5% of capital.
+    - No stop placement inside liquidity trap zones.
+    - Stop loss at structural FVG boundary.
+    - Trade invalidation → full exit on EMA crossover event.
+    - Daily exposure cap: 1% total risk.
+
+------------------------------------------------------------
+7. PERFORMANCE OBJECTIVES
+------------------------------------------------------------
+Expected PAPER Outcomes:
+    - Average R:R = 1:6 to 1:10 (variable by instrument).
+    - Win rate: 85–90% under strict condition compliance.
+    - Trade frequency: 1–3/week max (Gold, Nasdaq, FX majors).
+    - EMA stack detection accuracy ≥ 95%.
+
+------------------------------------------------------------
+8. PSYCHOLOGICAL & BEHAVIORAL FLAGS
+------------------------------------------------------------
+Behavior Encoding:
+    - patience.flag = TRUE  → Only trade within kill zone.
+    - greed.guard = ACTIVE  → Prevents post-trade stacking.
+    - time.filter = ENABLED → Disable entries outside allowed session.
+    - manual_override = ALLOWED (Commander confirmation optional).
+
+------------------------------------------------------------
+9. SIMULATION CHECKPOINTS
+------------------------------------------------------------
+PAPER Validation Sequence:
+    1. Activate AdaptiveCycle and TelemetryFusion.
+    2. Load EMA data stream for 5,9,13,21,200 periods.
+    3. Simulate Kill Zone from 03:00–06:30 NY.
+    4. Generate 10 FVG events and validate Trident patterns.
+    5. Run simulated trades with contextual stop + daily bias.
+    6. Confirm PnL curve matches expected 1:6–1:10 reward range.
+
+Expected PAPER Metrics:
+    - Average simulated accuracy ≥ 80%.
+    - Mean profit factor ≥ 4.0.
+    - No execution outside authorized window.
+
+------------------------------------------------------------
+10. INTEGRATION SUMMARY
+------------------------------------------------------------
+✅ TG Capital (Trader Mayne) doctrine integrated successfully.
+✅ AdaptiveCycle enforces timing and EMA structure logic.
+✅ RiskSentinel applies FVG-based stop strategy.
+✅ FeedbackLoop monitors R:R performance.
+✅ PAPER verification authorized.
+
+Doctrine Status: ACTIVE (PAPER Mode)
+
+"Precision is discipline. Timing is conviction."
+# ============================================================

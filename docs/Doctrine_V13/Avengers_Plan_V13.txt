@@ -1,0 +1,52 @@
+============================================================
+AVENGERS PLAN — V13
+Trade B Doctrine (Trend / Runner Operations)
+============================================================
+
+Mission:
+Long-term coordinated trades designed to capture extended market moves 
+(+20 → +50 USD) with strong risk management and adaptive trailing.  
+The Avengers operate with patience, precision, and capital discipline.
+
+Hierarchy:
+• Major (Commander) → 15 – 20 % capital, strategic oversight.  
+• Specialists (Ball-6 → Ball-8) → 5 – 10 % capital each, trend analysis + entry timing.  
+• Privates (Ball-1 → Ball-5) → 1 – 3 % capital each, execution and stop-management.  
+
+Tactics:
+• Primary Tool : Trade B (Runner).  
+• Entry : breakout or deep correction confirmation.  
+• Target : +20 → +50 USD profit with trailing stops.  
+• Stop - Loss :  $10 → $20 depending on volatility.  
+• Max Drawdown : -2 % of capital per session.  
+• Profit Assurance Ladder :  
+  • Lock 20 % after +$50 profit.  
+  • Tighten to 80 % after +$100 profit.  
+
+Operational Rules:
+• Focus on macro momentum and trend continuity.  
+• Early exit if market stalls (sideways phase detected).  
+• Super Update trigger tightens stops on high momentum.  
+• Major may intervene to re-allocate risk mid-mission.  
+
+Behavior Mode:
+Aggression     : medium  
+Duration        : long  
+Execution      : semi-auto  
+Risk Tolerance  : controlled  
+
+Integration Hooks:
+• Feeds : TelemetryFusion (BTC/USDT, ETH/USDT, SOL/USDT).  
+• Risk : V13_RiskSentinel (monitors -2 % maxDD).  
+• Performance : V13_PerformanceTracker (logs profit ladder).  
+
+Doctrine Summary:
+The Avengers represent the strategic arm of the V13 engine —  
+balancing risk and reward to achieve sustained growth across sessions.  
+They reinforce stability while the Assassins secure quick wins.
+
+============================================================
+ARCHIVE NOTE (V13 Transition)
+Merged and refined from V12.1 v4 and _V12.1 v4 Expanded.  
+Dynamic version : Avengers_Plan_V13.json (coming under Doctrine V13 folder)
+============================================================

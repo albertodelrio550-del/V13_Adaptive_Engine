@@ -1,0 +1,8 @@
+{
+  "templates": {
+    "private":  { "entry": { "signal_confirm_bars": 2 }, "exit": { "tp_usd": 3,  "sl_usd": 2 },  "trail": { "enabled": true, "step_usd": 1,  "arm_after_profit_usd": 2 } },
+    "specialist": { "entry": { "signal_confirm_bars": 2 }, "exit": { "tp_usd": 8,  "sl_usd": 5 },  "trail": { "enabled": true, "step_usd": 2,  "arm_after_profit_usd": 3 } },
+    "major":    { "entry": { "allow_breakout": true },     "exit": { "tp_usd": 15, "sl_usd": 8 },  "trail": { "enabled": true, "step_usd": 3,  "arm_after_profit_usd": 5 } },
+    "sniper":   { "entry": { "allow_breakout": true },     "exit": { "tp_usd": 20, "sl_usd": 10 }, "trail": { "enabled": true, "step_usd": 4,  "arm_after_profit_usd": 8 } }
+  }
+}

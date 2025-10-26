@@ -1,0 +1,6 @@
+{
+  "API_KEY_ID": "PKMZLIRJPYYYCQH52YD5KMF6WR",
+  "API_SECRET_KEY": "29UBVwNFkpnMZh2RS1EF4hEV67H4iDUoe6nWCgq24uw4",
+  "DATA_ENDPOINT": "https://data.alpaca.markets/v1beta3/crypto/us",
+  "TRADE_ENDPOINT": "https://paper-api.alpaca.markets/v2"
+}

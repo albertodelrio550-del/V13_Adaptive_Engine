@@ -1,0 +1,180 @@
+2025-10-22T14:24:31.996054 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-22T14:24:31.998060 | Running replay across 3 days: ['20251020', '20251021', '20251022']
+2025-10-22T14:24:32.036055 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=0
+2025-10-22T14:24:32.038055 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=0
+2025-10-22T23:04:40.051922 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-22T23:04:40.053921 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-22T23:04:40.054921 | No tick archive for 20251016
+2025-10-22T23:04:40.054921 | No tick archive for 20251017
+2025-10-22T23:04:40.055922 | No tick archive for 20251018
+2025-10-22T23:04:40.055922 | No tick archive for 20251019
+2025-10-22T23:04:40.059932 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-22T23:04:40.060926 | No tick archive for 20251016
+2025-10-22T23:04:40.060926 | No tick archive for 20251017
+2025-10-22T23:04:40.061922 | No tick archive for 20251018
+2025-10-22T23:04:40.062922 | No tick archive for 20251019
+2025-10-22T23:04:40.064921 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4
+2025-10-23T00:02:43.383931+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T00:02:43.385930+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T00:02:43.398935+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T00:02:43.399934+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T00:03:06.006062+00:00 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-23T00:03:06.007060+00:00 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-23T00:03:06.008060+00:00 | No tick archive for 20251016
+2025-10-23T00:03:06.009063+00:00 | No tick archive for 20251017
+2025-10-23T00:03:06.010059+00:00 | No tick archive for 20251018
+2025-10-23T00:03:06.010059+00:00 | No tick archive for 20251019
+2025-10-23T00:03:06.013059+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-23T00:03:06.014058+00:00 | No tick archive for 20251016
+2025-10-23T00:03:06.015059+00:00 | No tick archive for 20251017
+2025-10-23T00:03:06.015059+00:00 | No tick archive for 20251018
+2025-10-23T00:03:06.016060+00:00 | No tick archive for 20251019
+2025-10-23T00:03:06.018058+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4
+2025-10-23T00:07:17.598173+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T00:07:17.599173+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T00:07:17.602172+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T00:07:17.603171+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T00:07:27.595295+00:00 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-23T00:07:27.596295+00:00 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-23T00:07:27.597296+00:00 | No tick archive for 20251016
+2025-10-23T00:07:27.597296+00:00 | No tick archive for 20251017
+2025-10-23T00:07:27.598296+00:00 | No tick archive for 20251018
+2025-10-23T00:07:27.599295+00:00 | No tick archive for 20251019
+2025-10-23T00:07:27.601295+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-23T00:07:27.601295+00:00 | No tick archive for 20251016
+2025-10-23T00:07:27.602295+00:00 | No tick archive for 20251017
+2025-10-23T00:07:27.603295+00:00 | No tick archive for 20251018
+2025-10-23T00:07:27.603295+00:00 | No tick archive for 20251019
+2025-10-23T00:07:27.605295+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4
+2025-10-23T00:14:20.040255+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T00:14:20.041255+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T00:14:20.045259+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T00:14:20.046260+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T00:14:41.789206+00:00 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-23T00:14:41.790214+00:00 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-23T00:14:41.791222+00:00 | No tick archive for 20251016
+2025-10-23T00:14:41.792203+00:00 | No tick archive for 20251017
+2025-10-23T00:14:41.792203+00:00 | No tick archive for 20251018
+2025-10-23T00:14:41.793220+00:00 | No tick archive for 20251019
+2025-10-23T00:14:41.795216+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-23T00:14:41.796212+00:00 | No tick archive for 20251016
+2025-10-23T00:14:41.796212+00:00 | No tick archive for 20251017
+2025-10-23T00:14:41.797213+00:00 | No tick archive for 20251018
+2025-10-23T00:14:41.798206+00:00 | No tick archive for 20251019
+2025-10-23T00:14:41.800215+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4
+2025-10-23T00:24:07.214455+00:00 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-23T00:24:07.215446+00:00 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-23T00:24:07.215446+00:00 | No tick archive for 20251016
+2025-10-23T00:24:07.216444+00:00 | No tick archive for 20251017
+2025-10-23T00:24:07.217445+00:00 | No tick archive for 20251018
+2025-10-23T00:24:07.217445+00:00 | No tick archive for 20251019
+2025-10-23T00:24:07.220442+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-23T00:24:07.221445+00:00 | No tick archive for 20251016
+2025-10-23T00:24:07.221445+00:00 | No tick archive for 20251017
+2025-10-23T00:24:07.222445+00:00 | No tick archive for 20251018
+2025-10-23T00:24:07.223440+00:00 | No tick archive for 20251019
+2025-10-23T00:24:07.226441+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4
+2025-10-23T00:24:25.560551+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T00:24:25.561551+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T00:24:25.597548+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T00:24:25.599550+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T00:42:53.743147+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T00:42:53.744147+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T00:42:53.758150+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T00:42:53.760146+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T00:43:18.622635+00:00 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-23T00:43:18.624658+00:00 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-23T00:43:18.624658+00:00 | No tick archive for 20251016
+2025-10-23T00:43:18.625640+00:00 | No tick archive for 20251017
+2025-10-23T00:43:18.626653+00:00 | No tick archive for 20251018
+2025-10-23T00:43:18.626653+00:00 | No tick archive for 20251019
+2025-10-23T00:43:18.630635+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-23T00:43:18.630635+00:00 | No tick archive for 20251016
+2025-10-23T00:43:18.631636+00:00 | No tick archive for 20251017
+2025-10-23T00:43:18.632640+00:00 | No tick archive for 20251018
+2025-10-23T00:43:18.632640+00:00 | No tick archive for 20251019
+2025-10-23T00:43:18.634652+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4
+2025-10-23T00:47:23.417271+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T00:47:23.418272+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T00:47:23.421272+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T00:47:23.422273+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T00:48:17.010440+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T00:48:17.011439+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T00:48:17.014437+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T00:48:17.016438+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T00:51:55.532627+00:00 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-23T00:51:55.534628+00:00 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-23T00:51:55.535629+00:00 | No tick archive for 20251016
+2025-10-23T00:51:55.536629+00:00 | No tick archive for 20251017
+2025-10-23T00:51:55.536629+00:00 | No tick archive for 20251018
+2025-10-23T00:51:55.537627+00:00 | No tick archive for 20251019
+2025-10-23T00:51:55.539626+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-23T00:51:55.540637+00:00 | No tick archive for 20251016
+2025-10-23T00:51:55.540637+00:00 | No tick archive for 20251017
+2025-10-23T00:51:55.541627+00:00 | No tick archive for 20251018
+2025-10-23T00:51:55.541627+00:00 | No tick archive for 20251019
+2025-10-23T00:51:55.543626+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4
+2025-10-23T00:52:16.061724+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T00:52:16.062309+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T00:52:16.065830+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T00:52:16.067534+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T00:54:15.216844+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T00:54:15.218843+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T00:54:15.222843+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T00:54:15.223843+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T01:23:33.007677+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T01:23:33.008677+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T01:23:33.011675+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T01:23:33.012677+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T01:26:49.033425+00:00 | ReplayEngine initialized | root=tmp_replay\analytics lookback=5
+2025-10-23T01:26:49.034425+00:00 | Running replay across 2 days: ['20251020', '20251021']
+2025-10-23T01:26:49.037423+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=1.30 sharpe=0.00 fitness=0.00 missing=0
+2025-10-23T01:26:49.038426+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-1.60 sharpe=0.00 fitness=-0.16 missing=0
+2025-10-23T01:27:16.311831+00:00 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-23T01:27:16.312833+00:00 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-23T01:27:16.313831+00:00 | No tick archive for 20251016
+2025-10-23T01:27:16.314835+00:00 | No tick archive for 20251017
+2025-10-23T01:27:16.314835+00:00 | No tick archive for 20251018
+2025-10-23T01:27:16.315831+00:00 | No tick archive for 20251019
+2025-10-23T01:27:16.319834+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-23T01:27:16.320836+00:00 | No tick archive for 20251016
+2025-10-23T01:27:16.321831+00:00 | No tick archive for 20251017
+2025-10-23T01:27:16.321831+00:00 | No tick archive for 20251018
+2025-10-23T01:27:16.322849+00:00 | No tick archive for 20251019
+2025-10-23T01:27:16.324832+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4
+2025-10-23T01:28:43.812964+00:00 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-23T01:28:43.813965+00:00 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-23T01:28:43.814966+00:00 | No tick archive for 20251016
+2025-10-23T01:28:43.814966+00:00 | No tick archive for 20251017
+2025-10-23T01:28:43.815964+00:00 | No tick archive for 20251018
+2025-10-23T01:28:43.817970+00:00 | No tick archive for 20251019
+2025-10-23T01:28:43.820983+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-23T01:28:43.821983+00:00 | No tick archive for 20251016
+2025-10-23T01:28:43.821983+00:00 | No tick archive for 20251017
+2025-10-23T01:28:43.822964+00:00 | No tick archive for 20251018
+2025-10-23T01:28:43.823966+00:00 | No tick archive for 20251019
+2025-10-23T01:28:43.826963+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4
+2025-10-23T01:33:44.849863+00:00 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-23T01:33:44.850862+00:00 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-23T01:33:44.852863+00:00 | No tick archive for 20251016
+2025-10-23T01:33:44.853873+00:00 | No tick archive for 20251017
+2025-10-23T01:33:44.854876+00:00 | No tick archive for 20251018
+2025-10-23T01:33:44.855890+00:00 | No tick archive for 20251019
+2025-10-23T01:33:44.857869+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-23T01:33:44.858881+00:00 | No tick archive for 20251016
+2025-10-23T01:33:44.859865+00:00 | No tick archive for 20251017
+2025-10-23T01:33:44.859865+00:00 | No tick archive for 20251018
+2025-10-23T01:33:44.860861+00:00 | No tick archive for 20251019
+2025-10-23T01:33:44.862876+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4
+2025-10-23T01:46:28.587477+00:00 | ReplayEngine initialized | root=data\analytics lookback=30
+2025-10-23T01:46:28.588478+00:00 | Running replay across 7 days: ['20251016', '20251017', '20251018', '20251019', '20251020', '20251021', '20251022']
+2025-10-23T01:46:28.589477+00:00 | No tick archive for 20251016
+2025-10-23T01:46:28.590476+00:00 | No tick archive for 20251017
+2025-10-23T01:46:28.590476+00:00 | No tick archive for 20251018
+2025-10-23T01:46:28.591477+00:00 | No tick archive for 20251019
+2025-10-23T01:46:28.593475+00:00 | Replay complete | doctrine=ASSASSIN_BASELINE pnl=-0.42 sharpe=0.00 fitness=-0.04 missing=4
+2025-10-23T01:46:28.593475+00:00 | No tick archive for 20251016
+2025-10-23T01:46:28.594475+00:00 | No tick archive for 20251017
+2025-10-23T01:46:28.595474+00:00 | No tick archive for 20251018
+2025-10-23T01:46:28.595474+00:00 | No tick archive for 20251019
+2025-10-23T01:46:28.597474+00:00 | Replay complete | doctrine=AVENGER_EXTENDED pnl=-0.65 sharpe=0.00 fitness=-0.06 missing=4

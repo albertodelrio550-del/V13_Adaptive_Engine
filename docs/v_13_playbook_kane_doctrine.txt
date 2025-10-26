@@ -1,0 +1,161 @@
+# ============================================================
+# V13 PLAYBOOK — TRADER KANE DOCTRINE INTEGRATION FILE
+# Build: V13.2025.10.21.01
+# Mode: PAPER (Simulated Data)
+# Phase: 5 — SMT Divergence + PO3 Structure Integration
+# ============================================================
+
+1. DOCTRINE OVERVIEW
+------------------------------------------------------------
+Origin: Trader Kane “SMT Divergence + PO3 (Power of Three)” Playbook — Apr 2025.
+Focus: Intraday reversals using cross-instrument correlation (SMT) and the PO3 structure
+(Accumulation → Manipulation → Distribution).
+Purpose: Enable V13 to detect correlated divergences (e.g., NQ vs. ES) and execute clean, high-
+probability reversal setups within intraday cycles.
+
+Doctrine Mission:
+    Teach V13 to recognize SMT divergences, identify manipulation sweeps, and target the 50%
+    mean reversion zone with tight risk parameters and controlled trade frequency.
+
+------------------------------------------------------------
+2. CORE PRINCIPLES
+------------------------------------------------------------
+Structure Foundation — Power of Three (PO3):
+    • **Accumulation:** Range formation — price builds liquidity.
+    • **Manipulation:** Stop runs or liquidity sweeps (false breakouts).
+    • **Distribution:** Confirmed move back into equilibrium (50% retracement zone).
+
+Correlation Principle — SMT Divergence:
+    • When NQ and ES fail to make simultaneous highs/lows, divergence forms.
+    • Divergence = exhaustion = reversal potential.
+    • Confirmation required from higher timeframe structure (Daily → 4H → 1H alignment).
+
+Objective:
+    Trade the **reversal leg** (Manipulation → Distribution), not the initial breakout.
+
+------------------------------------------------------------
+3. SYSTEM INTEGRATION MAP
+------------------------------------------------------------
+Module: V13_TelemetryFusion
+    → Gathers inter-market correlation data (NQ, ES, BTC, SPX).
+    → Calculates divergence metrics in real-time.
+    → Sends divergence flag to AdaptiveCycle when alignment threshold ≥ 85%.
+
+Module: V13_AdaptiveCycle
+    → Recognizes PO3 structure transitions using structure and volatility analysis.
+    → Aligns execution timing with manipulation-to-distribution phase change.
+
+Module: V13_RiskSentinel
+    → Enforces structural stop placement at SMT high/low.
+    → Prevents premature exits due to correlated spikes.
+
+Module: V13_DoctrineFeedbackLoop
+    → Logs SMT divergence accuracy and trade success by phase.
+    → Adjusts probability weighting dynamically in next simulation loop.
+
+------------------------------------------------------------
+4. TRADE MODEL TRANSLATION
+------------------------------------------------------------
+MODEL 1: SMT-PO3 REVERSAL ENTRY
+------------------------------------------------------------
+Conditions:
+    1. Daily bias defined — mark previous high/low and 50% equilibrium.
+    2. 4H confirms PO3 structure — Accumulation → Manipulation → Distribution.
+    3. 1H confirms manipulation sweep (false breakout event).
+    4. SMT divergence detected — one correlated instrument fails to make a new high/low.
+    5. Entry zone identified at prior inversion area or imbalance (FVG).
+
+Entry Trigger:
+    - Confirmation candle close below (short) / above (long) inversion zone.
+    - Volume compression + correlation divergence.
+
+Stop Loss:
+    - 1–2 ticks beyond SMT high (for shorts) or low (for longs).
+
+Target:
+    - 50% of dealing range measured via Daily/4H.
+
+Risk Model:
+    - Tight base-hit model; no pyramiding.
+    - Breakeven rule active once initial 15-min structure low/high taken.
+
+------------------------------------------------------------
+5. ADAPTIVE LOGIC FLOW (V13_AdaptiveCycle)
+------------------------------------------------------------
+1. Detect phase via volatility and structure data.
+2. Identify manipulation spike and measure SMT divergence correlation.
+3. Confirm divergence strength ≥ threshold (Δ ≥ 0.3% between NQ and ES).
+4. Validate PO3 completion pattern.
+5. Trigger trade authorization to CommanderMonitor.
+6. Engage PAPER simulation entry at inversion zone.
+
+------------------------------------------------------------
+6. RISK SENTINEL ALIGNMENT
+------------------------------------------------------------
+RiskSentinel Parameters:
+    - Max risk/trade: 0.4%.
+    - Max DD: 1.5% per session.
+    - Stop placement beyond SMT extreme.
+    - Auto-cooldown: 15m after 2 breakeven results.
+    - Risk resets if SMT correlation accuracy < 70%.
+
+------------------------------------------------------------
+7. EXECUTION & MANAGEMENT
+------------------------------------------------------------
+Execution Timing:
+    - Focus window: 09:45–11:15 EST.
+    - Confirmation required post 10:00 AM SMT event.
+    - No trade before manipulation confirmed.
+
+Management Rules:
+    - Move stop to breakeven once structure confirms lower high/higher low.
+    - Partial allowed only at the 50% target zone.
+    - Avoid re-entry after first confirmed reversal.
+
+------------------------------------------------------------
+8. PERFORMANCE OBJECTIVES
+------------------------------------------------------------
+Expected PAPER Outcomes:
+    - Win rate: 65–75% (base hit strategy).
+    - Average R:R: 1:2.5 → 1:4.
+    - Trade duration: 15–45 minutes average.
+    - Correlation accuracy target ≥ 85%.
+
+------------------------------------------------------------
+9. PSYCHOLOGICAL & BEHAVIORAL FLAGS
+------------------------------------------------------------
+Behavior Encoding:
+    - patience.flag = TRUE  → Wait for SMT confirmation.
+    - overtrade.guard = ENABLED → Prevents multiple entries in same phase.
+    - correlation.lock = TRUE → Require intermarket alignment before execution.
+    - manipulation.delay = 2 bars minimum → Prevents premature reversals.
+
+------------------------------------------------------------
+10. SIMULATION CHECKPOINTS
+------------------------------------------------------------
+PAPER Verification Sequence:
+    1. Load NQ + ES telemetry data.
+    2. Identify 3 SMT divergences per session.
+    3. Confirm PO3 alignment across 4H + 1H.
+    4. Execute 3 reversal trades (2 short, 1 long).
+    5. Validate 50% mean reversion target hit ratio ≥ 70%.
+    6. Confirm all stops respected structural SMT logic.
+
+Expected PAPER Metrics:
+    - Average Profit Factor: ≥ 2.5.
+    - Consistency Score (FeedbackLoop): ≥ 0.8.
+    - No early entries during manipulation phase.
+
+------------------------------------------------------------
+11. INTEGRATION SUMMARY
+------------------------------------------------------------
+✅ SMT divergence detection enabled in TelemetryFusion.
+✅ AdaptiveCycle capable of recognizing PO3 transitions.
+✅ RiskSentinel aligned to SMT extremes.
+✅ FeedbackLoop tracking phase accuracy.
+✅ PAPER verification authorized.
+
+Doctrine Status: ACTIVE (PAPER Mode)
+
+"Correlated divergence reveals exhaustion — precision defines entry."
+# ============================================================

@@ -1,0 +1,66 @@
+{"timestamp": "2025-10-23T01:26:45.207859+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK1-0", "since_intent_ms": 61, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.231858+00:00", "event": "FILLED", "order_id": "TEST-BLOCK1-0", "since_intent_ms": 86, "since_ack_ms": 25, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.340859+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK1-1", "since_intent_ms": 194, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.365856+00:00", "event": "FILLED", "order_id": "TEST-BLOCK1-1", "since_intent_ms": 220, "since_ack_ms": 26, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.461860+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK1-2", "since_intent_ms": 317, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.484856+00:00", "event": "FILLED", "order_id": "TEST-BLOCK1-2", "since_intent_ms": 339, "since_ack_ms": 22, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.573858+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK1-3", "since_intent_ms": 428, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.593856+00:00", "event": "FILLED", "order_id": "TEST-BLOCK1-3", "since_intent_ms": 447, "since_ack_ms": 18, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.673857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK1-4", "since_intent_ms": 528, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.693857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK1-4", "since_intent_ms": 548, "since_ack_ms": 19, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.782857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK1-5", "since_intent_ms": 636, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.826858+00:00", "event": "FILLED", "order_id": "TEST-BLOCK1-5", "since_intent_ms": 675, "since_ack_ms": 38, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:45.979858+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK1-6", "since_intent_ms": 834, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:46.003855+00:00", "event": "FILLED", "order_id": "TEST-BLOCK1-6", "since_intent_ms": 858, "since_ack_ms": 23, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:46.091856+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK1-7", "since_intent_ms": 945, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:46.113880+00:00", "event": "FILLED", "order_id": "TEST-BLOCK1-7", "since_intent_ms": 969, "since_ack_ms": 23, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:46.195857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK1-8", "since_intent_ms": 1050, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:46.214857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK1-8", "since_intent_ms": 1069, "since_ack_ms": 19, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:46.301857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK1-9", "since_intent_ms": 1156, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:46.320857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK1-9", "since_intent_ms": 1175, "since_ack_ms": 19, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:46.402857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK2-0", "since_intent_ms": 1257, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.423858+00:00", "event": "FILLED", "order_id": "TEST-BLOCK2-0", "since_intent_ms": 1277, "since_ack_ms": 20, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.503857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK2-1", "since_intent_ms": 1358, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.523857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK2-1", "since_intent_ms": 1378, "since_ack_ms": 20, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.602857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK2-2", "since_intent_ms": 1457, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.624858+00:00", "event": "FILLED", "order_id": "TEST-BLOCK2-2", "since_intent_ms": 1479, "since_ack_ms": 22, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.713857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK2-3", "since_intent_ms": 1567, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.733857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK2-3", "since_intent_ms": 1588, "since_ack_ms": 21, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.814856+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK2-4", "since_intent_ms": 1669, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.837856+00:00", "event": "FILLED", "order_id": "TEST-BLOCK2-4", "since_intent_ms": 1692, "since_ack_ms": 23, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.925857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK2-5", "since_intent_ms": 1780, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:46.944857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK2-5", "since_intent_ms": 1799, "since_ack_ms": 18, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:47.030904+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK2-6", "since_intent_ms": 1886, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:47.057858+00:00", "event": "FILLED", "order_id": "TEST-BLOCK2-6", "since_intent_ms": 1912, "since_ack_ms": 25, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:47.146859+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK2-7", "since_intent_ms": 2000, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:47.169856+00:00", "event": "FILLED", "order_id": "TEST-BLOCK2-7", "since_intent_ms": 2023, "since_ack_ms": 22, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:47.282856+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK2-8", "since_intent_ms": 2136, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:47.303857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK2-8", "since_intent_ms": 2158, "since_ack_ms": 22, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:47.381855+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK2-9", "since_intent_ms": 2236, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:47.401857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK2-9", "since_intent_ms": 2255, "since_ack_ms": 19, "status": "filled", "block_id": "BLOCK2"}
+{"timestamp": "2025-10-23T01:26:47.476857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK3-0", "since_intent_ms": 2331, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:47.496856+00:00", "event": "FILLED", "order_id": "TEST-BLOCK3-0", "since_intent_ms": 2350, "since_ack_ms": 18, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:47.583877+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK3-1", "since_intent_ms": 2439, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:47.603874+00:00", "event": "FILLED", "order_id": "TEST-BLOCK3-1", "since_intent_ms": 2459, "since_ack_ms": 19, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:47.682859+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK3-2", "since_intent_ms": 2537, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:47.708857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK3-2", "since_intent_ms": 2563, "since_ack_ms": 25, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:47.796858+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK3-3", "since_intent_ms": 2650, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:47.817856+00:00", "event": "FILLED", "order_id": "TEST-BLOCK3-3", "since_intent_ms": 2672, "since_ack_ms": 21, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:47.904857+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK3-4", "since_intent_ms": 2758, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:47.927856+00:00", "event": "FILLED", "order_id": "TEST-BLOCK3-4", "since_intent_ms": 2781, "since_ack_ms": 23, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.018859+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK3-5", "since_intent_ms": 2873, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.044858+00:00", "event": "FILLED", "order_id": "TEST-BLOCK3-5", "since_intent_ms": 2899, "since_ack_ms": 25, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.138858+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK3-6", "since_intent_ms": 2993, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.159857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK3-6", "since_intent_ms": 3014, "since_ack_ms": 20, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.240858+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK3-7", "since_intent_ms": 3094, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.261857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK3-7", "since_intent_ms": 3116, "since_ack_ms": 21, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.344856+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK3-8", "since_intent_ms": 3199, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.364857+00:00", "event": "FILLED", "order_id": "TEST-BLOCK3-8", "since_intent_ms": 3219, "since_ack_ms": 20, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.442667+00:00", "event": "ACK_ACCEPTED", "order_id": "TEST-BLOCK3-9", "since_intent_ms": 3297, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.461667+00:00", "event": "FILLED", "order_id": "TEST-BLOCK3-9", "since_intent_ms": 3316, "since_ack_ms": 19, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.615423+00:00", "event": "ACK_ACCEPTED", "order_id": "EXP-SPY-1", "since_intent_ms": 112, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:48.635426+00:00", "event": "FILLED", "order_id": "EXP-SPY-1", "since_intent_ms": 133, "since_ack_ms": 20, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:48.731427+00:00", "event": "ACK_ACCEPTED", "order_id": "EXP-AAPL-1", "since_intent_ms": 214, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:48.763425+00:00", "event": "FILLED", "order_id": "EXP-AAPL-1", "since_intent_ms": 246, "since_ack_ms": 31, "status": "filled", "block_id": "BLOCK1"}
+{"timestamp": "2025-10-23T01:26:48.948424+00:00", "event": "ACK_ACCEPTED", "order_id": "EXP-TSLA-1", "since_intent_ms": 417, "status": "filled", "block_id": "BLOCK3"}
+{"timestamp": "2025-10-23T01:26:48.968423+00:00", "event": "FILLED", "order_id": "EXP-TSLA-1", "since_intent_ms": 437, "since_ack_ms": 19, "status": "filled", "block_id": "BLOCK3"}

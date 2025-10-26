@@ -1,0 +1,191 @@
+# ============================================================
+# V13 PLAYBOOK — FABIO DOCTRINE INTEGRATION FILE
+# Build: V13.2025.10.21.01
+# Mode: PAPER (Simulated Data)
+# Phase: 5 — Adaptive Engine Integration
+# ============================================================
+
+1. DOCTRINE OVERVIEW
+------------------------------------------------------------
+Origin: Fabio Valentini’s “Auction Market Playbook” (Apr 2025)
+Focus: Futures Scalping via Auction Market Theory (AMT), Volume Profile, and Order Flow.
+Purpose: Convert human trading logic into adaptive AI-driven cycle behaviors under V13.
+
+This doctrine governs the **V13_AdaptiveCycle**, **V13_RiskSentinel**, and **V13_DoctrineFeedbackLoop**.
+It establishes the behavioral conditions that determine when the system is allowed to engage, hold, or retreat.
+
+------------------------------------------------------------
+2. CORE PRINCIPLES
+------------------------------------------------------------
+Market operates in two states:
+    a. BALANCE → Price rotates around fair value (70% of the time).
+    b. IMBALANCE → Price moves aggressively to find new fair value.
+
+Trade execution is authorized only when three align:
+    1. Market State confirmed.
+    2. Location identified via Volume Profile (LVN, POC).
+    3. Aggression validated via Order Flow (CVD pressure, print size, imbalance).
+
+If any of the above are missing → TRADE BLOCKED.
+
+------------------------------------------------------------
+3. SYSTEM INTEGRATION MAP
+------------------------------------------------------------
+Module: V13_AdaptiveCycle
+    → Reads simulated telemetry feed.
+    → Detects balance/imbalance transition zones.
+    → Switches doctrine mode between TREND MODEL and REVERSION MODEL.
+
+Module: V13_RiskSentinel
+    → Enforces risk size per doctrine: 0.25–0.5% of session capital.
+    → Stop loss offset: +1–2 tick buffer beyond aggression print.
+    → Early break-even logic: if CVD shows momentum alignment.
+
+Module: V13_DoctrineFeedbackLoop
+    → Captures trader feedback events.
+    → Adjusts aggression threshold or lock distance based on human review.
+
+------------------------------------------------------------
+4. TRADE MODEL TRANSLATION
+------------------------------------------------------------
+MODEL 1: TREND CONTINUATION (Out-of-Balance → New Balance)
+------------------------------------------------------------
+Conditions:
+    - Market out of balance, showing displacement + directional momentum.
+    - Volume Profile applied to impulse leg → Identify LVNs.
+    - Wait for retracement into LVN.
+
+Entry Trigger:
+    - Aggression confirmation in trend direction (buy/sell footprint dominance).
+    - Order Flow Delta supports directional continuation.
+
+Stop Loss:
+    - 1–2 tick buffer below/above aggression print.
+
+Risk Size:
+    - 0.25–0.5% capital allocation per mission.
+
+Target:
+    - Previous balance Point of Control (POC).
+    - Optional trail if strong displacement persists.
+
+Operational Notes:
+    - Works best in New York Session (NASDAQ / ES futures sim).
+    - Avoid early London fakeouts.
+    - Skip if CVD pressure not confirmed.
+
+MODEL 2: MEAN REVERSION (Failed Breakout → Return to Balance)
+------------------------------------------------------------
+Conditions:
+    - Market in balance → failed breakout attempt.
+    - Price reclaims prior value → confirm re-entry into range.
+    - Volume Profile on reclaim leg → LVNs become snap-back zones.
+
+Entry Trigger:
+    - Aggression reversal confirmed (buyers/sellers losing control).
+    - Enter toward balance POC.
+
+Stop Loss:
+    - 1–2 tick buffer beyond aggression print.
+    - No widening allowed; immediate invalidation = exit.
+
+Target:
+    - Center of Value (POC).
+    - Avoid stretching to opposite range extremes.
+
+Operational Notes:
+    - Works best in London session or low-volatility conditions.
+    - Skip during compressed or choppy data.
+
+------------------------------------------------------------
+5. ADAPTIVE LOGIC FLOW
+------------------------------------------------------------
+[Cycle Logic for V13_AdaptiveCycle]
+
+1. Detect Market State (via TelemetryFusion feed):
+    - Price within ±0.5% of Value Area → BALANCE.
+    - Price breaks beyond ±1% with delta momentum → IMBALANCE.
+
+2. Switch doctrine:
+    - BALANCE → activate MEAN REVERSION model.
+    - IMBALANCE → activate TREND model.
+
+3. Monitor aggression:
+    - Use Volume Delta & Footprint pressure.
+    - Confirm aggression > threshold → signal entry.
+
+4. Auto-lock logic:
+    - Lock 20% profit after +1R.
+    - Tighten to 80% after +3R.
+
+5. Trail logic:
+    - Enable only in TREND mode with confirmed CVD support.
+
+------------------------------------------------------------
+6. RISK SENTINEL ALIGNMENT
+------------------------------------------------------------
+RiskSentinel monitors:
+    - MaxDD per doctrine: 2% of session equity.
+    - Per-trade loss limit: 0.5% (auto-cut).
+    - Consecutive stop-outs ≥3 → cooldown 30m.
+    - Force reset if volatility spike > 5%/1m.
+
+Protection Protocols:
+    - Stop expansion forbidden.
+    - Recovery allowed only after confirmation of new aggression pattern.
+
+------------------------------------------------------------
+7. PSYCHOLOGICAL & BEHAVIORAL FLAGS
+------------------------------------------------------------
+The Fabio doctrine embeds discipline as an automatic trading filter:
+    - No aggression = No Trade.
+    - No confirmation = Standby.
+    - Consecutive small losses = Pause cycle.
+    - Emotional trigger detection: auto-hand off to ManualOverride module.
+
+Behavior Tags:
+    - discipline.flag = TRUE
+    - overtrade.guard = ENABLED
+    - feedback.human_override = ALLOWED
+
+------------------------------------------------------------
+8. EXECUTION VALIDATION
+------------------------------------------------------------
+Pre-checklist before activation:
+    1. Confirm PAPER MODE active.
+    2. Validate telemetry continuity (≤100ms delay).
+    3. Confirm Doctrine Alignment: Market State, LVN map, Aggression present.
+    4. Run one simulated TREND and one MEAN REVERSION model.
+    5. Check PnL integrity via PerformanceTracker.
+
+Expected PAPER results:
+    → 60–70% trade validity under normal volatility.
+    → Average R:R ratio: 1:2.5 → 1:5.
+    → Max consecutive losses: 3 (auto-pause enforced).
+
+------------------------------------------------------------
+9. PAPER SIMULATION CHECKPOINTS
+------------------------------------------------------------
+Session Simulation Order:
+    [1] Load TelemetryFusion feed.
+    [2] Activate AdaptiveCycle.
+    [3] Run FabioDoctrine auto-detection (balance/imbalance).
+    [4] Execute 5 simulated trades per model.
+    [5] Log PnL via PerformanceTracker.
+    [6] Verify MaxDD within RiskSentinel caps.
+    [7] Generate SessionAudit summary file.
+
+Verification Output Targets:
+    - Net Profit Positive (≥ +1R)
+    - DD < Mode Limit
+    - SyncLoop latency < 3s
+    - Feedback ACK confirmed
+
+------------------------------------------------------------
+FINAL STATUS:
+✅ Fabio Doctrine integrated for AdaptiveCycle logic.
+✅ RiskSentinel & FeedbackLoop linked.
+✅ PAPER verification authorized.
+
+"Discipline + Planning = Victory."
+# ============================================================

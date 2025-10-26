@@ -1,0 +1,54 @@
+{
+  "build_id": "V13.2025.10.20.01",
+  "mode": "PAPER",
+  "data_sources": [
+    {
+      "symbol": "BTC/USDT",
+      "exchange": "Binance",
+      "feed_type": "websocket",
+      "timeframes": ["1m", "5m", "15m"],
+      "latency_tolerance_ms": 300,
+      "fallback": "REST"
+    },
+    {
+      "symbol": "ETH/USDT",
+      "exchange": "Binance",
+      "feed_type": "websocket",
+      "timeframes": ["1m", "5m"],
+      "latency_tolerance_ms": 400,
+      "fallback": "REST"
+    },
+    {
+      "symbol": "SOL/USDT",
+      "exchange": "Binance",
+      "feed_type": "REST",
+      "timeframes": ["5m", "15m"],
+      "latency_tolerance_ms": 500,
+      "fallback": "none"
+    }
+  ],
+  "synthetic_feeds": [
+    {
+      "symbol": "BTC.D",
+      "source": "derived",
+      "formula": "BTC_dominance_index = BTC_MarketCap / TotalCryptoCap * 100",
+      "refresh_interval_sec": 60
+    }
+  ],
+  "paper_simulation": {
+    "enabled": true,
+    "source": "MockFeed_Generator.py",
+    "tick_interval_ms": 250,
+    "slippage_model": "linear",
+    "fee_model": "fixed_0.075%"
+  },
+  "data_storage": {
+    "telemetry_db": "../logs/Session_Audit_Log.db",
+    "log_csv": "../logs/Telemetry_Log.csv",
+    "backup_folder": "../logs/Backup_Feed/"
+  },
+  "status": {
+    "last_updated": "2025-10-20T00:00:00Z",
+    "verified": true
+  }
+}

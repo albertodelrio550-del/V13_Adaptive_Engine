@@ -1,0 +1,281 @@
+{"Timestamp": "2025-10-21 20:37:57", "Session_ID": "V13_20251021_203757", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-21 20:37:57", "Session_ID": "V13_20251021_203757", "Event": "HASH_VALIDATION", "Status": "FAIL", "Details": "Integrity_HashList.md5 missing."}
+{"Timestamp": "2025-10-21 20:37:57", "Session_ID": "V13_20251021_203757", "Event": "SESSION_ABORT", "Status": "FAIL", "Details": "Hash mismatch detected."}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "TEST_EVENT", "Status": "OK", "Details": "Unit check"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "CMD_ACK", "Status": "OK", "Details": "tighten B: demo"}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 13:02:58", "Session_ID": "V13_20251023_130258", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 22:52:58", "Session_ID": "V13_20251023_225258", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 22:52:58", "Session_ID": "V13_20251023_225258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 22:52:58", "Session_ID": "V13_20251023_225258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 22:52:58", "Session_ID": "V13_20251023_225258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 22:52:58", "Session_ID": "V13_20251023_225258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 22:52:58", "Session_ID": "V13_20251023_225258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 22:52:58", "Session_ID": "V13_20251023_225258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 22:52:58", "Session_ID": "V13_20251023_225258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 22:52:58", "Session_ID": "V13_20251023_225258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 22:52:58", "Session_ID": "V13_20251023_225258", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:12:56", "Session_ID": "V13_20251023_231256", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:12:56", "Session_ID": "V13_20251023_231256", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:12:56", "Session_ID": "V13_20251023_231256", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:12:56", "Session_ID": "V13_20251023_231256", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:12:56", "Session_ID": "V13_20251023_231256", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:12:56", "Session_ID": "V13_20251023_231256", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:12:56", "Session_ID": "V13_20251023_231256", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:12:56", "Session_ID": "V13_20251023_231256", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:12:56", "Session_ID": "V13_20251023_231256", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:12:56", "Session_ID": "V13_20251023_231256", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:12:59", "Session_ID": "V13_20251023_231256", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:13:00", "Session_ID": "V13_20251023_231256", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:14:02", "Session_ID": "V13_20251023_231402", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:14:02", "Session_ID": "V13_20251023_231402", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:14:02", "Session_ID": "V13_20251023_231402", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:14:02", "Session_ID": "V13_20251023_231402", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:02", "Session_ID": "V13_20251023_231402", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:02", "Session_ID": "V13_20251023_231402", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:02", "Session_ID": "V13_20251023_231402", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:02", "Session_ID": "V13_20251023_231402", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:02", "Session_ID": "V13_20251023_231402", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:02", "Session_ID": "V13_20251023_231402", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:03", "Session_ID": "V13_20251023_231402", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:14:03", "Session_ID": "V13_20251023_231402", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:14:24", "Session_ID": "V13_20251023_231424", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:14:24", "Session_ID": "V13_20251023_231424", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:14:24", "Session_ID": "V13_20251023_231424", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:14:24", "Session_ID": "V13_20251023_231424", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:24", "Session_ID": "V13_20251023_231424", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:24", "Session_ID": "V13_20251023_231424", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:24", "Session_ID": "V13_20251023_231424", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:24", "Session_ID": "V13_20251023_231424", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:24", "Session_ID": "V13_20251023_231424", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:24", "Session_ID": "V13_20251023_231424", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:28", "Session_ID": "V13_20251023_231424", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:14:28", "Session_ID": "V13_20251023_231424", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:14:32", "Session_ID": "V13_20251023_231432", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:14:32", "Session_ID": "V13_20251023_231432", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:14:32", "Session_ID": "V13_20251023_231432", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:14:32", "Session_ID": "V13_20251023_231432", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:32", "Session_ID": "V13_20251023_231432", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:32", "Session_ID": "V13_20251023_231432", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:33", "Session_ID": "V13_20251023_231432", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:33", "Session_ID": "V13_20251023_231432", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:33", "Session_ID": "V13_20251023_231432", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:33", "Session_ID": "V13_20251023_231432", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:36", "Session_ID": "V13_20251023_231432", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:14:36", "Session_ID": "V13_20251023_231432", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:14:40", "Session_ID": "V13_20251023_231440", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:14:40", "Session_ID": "V13_20251023_231440", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:14:40", "Session_ID": "V13_20251023_231440", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:14:40", "Session_ID": "V13_20251023_231440", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:40", "Session_ID": "V13_20251023_231440", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:40", "Session_ID": "V13_20251023_231440", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:40", "Session_ID": "V13_20251023_231440", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:40", "Session_ID": "V13_20251023_231440", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:40", "Session_ID": "V13_20251023_231440", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:40", "Session_ID": "V13_20251023_231440", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:43", "Session_ID": "V13_20251023_231440", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:14:43", "Session_ID": "V13_20251023_231440", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:14:48", "Session_ID": "V13_20251023_231448", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:14:48", "Session_ID": "V13_20251023_231448", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:14:48", "Session_ID": "V13_20251023_231448", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:14:48", "Session_ID": "V13_20251023_231448", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:48", "Session_ID": "V13_20251023_231448", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:48", "Session_ID": "V13_20251023_231448", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:48", "Session_ID": "V13_20251023_231448", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:48", "Session_ID": "V13_20251023_231448", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:48", "Session_ID": "V13_20251023_231448", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:48", "Session_ID": "V13_20251023_231448", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:51", "Session_ID": "V13_20251023_231448", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:14:51", "Session_ID": "V13_20251023_231448", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:14:57", "Session_ID": "V13_20251023_231457", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:14:57", "Session_ID": "V13_20251023_231457", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:14:57", "Session_ID": "V13_20251023_231457", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:14:57", "Session_ID": "V13_20251023_231457", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:57", "Session_ID": "V13_20251023_231457", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:57", "Session_ID": "V13_20251023_231457", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:57", "Session_ID": "V13_20251023_231457", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:57", "Session_ID": "V13_20251023_231457", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:57", "Session_ID": "V13_20251023_231457", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:14:57", "Session_ID": "V13_20251023_231457", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:00", "Session_ID": "V13_20251023_231457", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:15:00", "Session_ID": "V13_20251023_231457", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:15:04", "Session_ID": "V13_20251023_231504", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:15:04", "Session_ID": "V13_20251023_231504", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:15:04", "Session_ID": "V13_20251023_231504", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:15:04", "Session_ID": "V13_20251023_231504", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:04", "Session_ID": "V13_20251023_231504", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:04", "Session_ID": "V13_20251023_231504", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:04", "Session_ID": "V13_20251023_231504", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:04", "Session_ID": "V13_20251023_231504", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:04", "Session_ID": "V13_20251023_231504", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:04", "Session_ID": "V13_20251023_231504", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:08", "Session_ID": "V13_20251023_231504", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:15:08", "Session_ID": "V13_20251023_231504", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:15:13", "Session_ID": "V13_20251023_231513", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:15:13", "Session_ID": "V13_20251023_231513", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:15:13", "Session_ID": "V13_20251023_231513", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:15:13", "Session_ID": "V13_20251023_231513", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:13", "Session_ID": "V13_20251023_231513", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:13", "Session_ID": "V13_20251023_231513", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:13", "Session_ID": "V13_20251023_231513", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:13", "Session_ID": "V13_20251023_231513", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:13", "Session_ID": "V13_20251023_231513", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:13", "Session_ID": "V13_20251023_231513", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:16", "Session_ID": "V13_20251023_231513", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:15:17", "Session_ID": "V13_20251023_231513", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:15:22", "Session_ID": "V13_20251023_231522", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:15:22", "Session_ID": "V13_20251023_231522", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:15:22", "Session_ID": "V13_20251023_231522", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:15:22", "Session_ID": "V13_20251023_231522", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:22", "Session_ID": "V13_20251023_231522", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:22", "Session_ID": "V13_20251023_231522", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:22", "Session_ID": "V13_20251023_231522", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:22", "Session_ID": "V13_20251023_231522", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:22", "Session_ID": "V13_20251023_231522", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:22", "Session_ID": "V13_20251023_231522", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:25", "Session_ID": "V13_20251023_231522", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:15:25", "Session_ID": "V13_20251023_231522", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:15:34", "Session_ID": "V13_20251023_231534", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:15:34", "Session_ID": "V13_20251023_231534", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:15:34", "Session_ID": "V13_20251023_231534", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:15:34", "Session_ID": "V13_20251023_231534", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:34", "Session_ID": "V13_20251023_231534", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:34", "Session_ID": "V13_20251023_231534", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:34", "Session_ID": "V13_20251023_231534", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:34", "Session_ID": "V13_20251023_231534", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:34", "Session_ID": "V13_20251023_231534", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:34", "Session_ID": "V13_20251023_231534", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:37", "Session_ID": "V13_20251023_231534", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:15:37", "Session_ID": "V13_20251023_231534", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:15:42", "Session_ID": "V13_20251023_231542", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:15:42", "Session_ID": "V13_20251023_231542", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:15:42", "Session_ID": "V13_20251023_231542", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:15:42", "Session_ID": "V13_20251023_231542", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:42", "Session_ID": "V13_20251023_231542", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:42", "Session_ID": "V13_20251023_231542", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:42", "Session_ID": "V13_20251023_231542", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:42", "Session_ID": "V13_20251023_231542", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:42", "Session_ID": "V13_20251023_231542", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:42", "Session_ID": "V13_20251023_231542", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:15:45", "Session_ID": "V13_20251023_231542", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:15:45", "Session_ID": "V13_20251023_231542", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:23:27", "Session_ID": "V13_20251023_225258", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-23 23:23:27", "Session_ID": "V13_20251023_225258", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-23 23:30:05", "Session_ID": "V13_20251023_233005", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:30:06", "Session_ID": "V13_20251023_233005", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:30:06", "Session_ID": "V13_20251023_233005", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:30:06", "Session_ID": "V13_20251023_233005", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:30:06", "Session_ID": "V13_20251023_233005", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:30:06", "Session_ID": "V13_20251023_233005", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:30:06", "Session_ID": "V13_20251023_233005", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:30:06", "Session_ID": "V13_20251023_233005", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:30:06", "Session_ID": "V13_20251023_233005", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:30:06", "Session_ID": "V13_20251023_233005", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:33:01", "Session_ID": "V13_20251023_233301", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:33:01", "Session_ID": "V13_20251023_233301", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:33:01", "Session_ID": "V13_20251023_233301", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:33:01", "Session_ID": "V13_20251023_233301", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:33:01", "Session_ID": "V13_20251023_233301", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:33:01", "Session_ID": "V13_20251023_233301", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:33:01", "Session_ID": "V13_20251023_233301", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:33:01", "Session_ID": "V13_20251023_233301", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:33:01", "Session_ID": "V13_20251023_233301", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:33:01", "Session_ID": "V13_20251023_233301", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:34:19", "Session_ID": "V13_20251023_233419", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:34:19", "Session_ID": "V13_20251023_233419", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:34:19", "Session_ID": "V13_20251023_233419", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:34:19", "Session_ID": "V13_20251023_233419", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:34:19", "Session_ID": "V13_20251023_233419", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:34:19", "Session_ID": "V13_20251023_233419", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:34:19", "Session_ID": "V13_20251023_233419", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:34:19", "Session_ID": "V13_20251023_233419", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:34:19", "Session_ID": "V13_20251023_233419", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:34:20", "Session_ID": "V13_20251023_233419", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:36:48", "Session_ID": "V13_20251023_233648", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:36:48", "Session_ID": "V13_20251023_233648", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:36:48", "Session_ID": "V13_20251023_233648", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:36:48", "Session_ID": "V13_20251023_233648", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:36:48", "Session_ID": "V13_20251023_233648", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:36:48", "Session_ID": "V13_20251023_233648", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:36:48", "Session_ID": "V13_20251023_233648", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:36:48", "Session_ID": "V13_20251023_233648", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:36:48", "Session_ID": "V13_20251023_233648", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:36:48", "Session_ID": "V13_20251023_233648", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-23 23:42:30", "Session_ID": "V13_20251023_234230", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-23 23:42:30", "Session_ID": "V13_20251023_234230", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-23 23:42:30", "Session_ID": "V13_20251023_234230", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-23 23:42:30", "Session_ID": "V13_20251023_234230", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-23 23:42:30", "Session_ID": "V13_20251023_234230", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:42:30", "Session_ID": "V13_20251023_234230", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-23 23:42:30", "Session_ID": "V13_20251023_234230", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-23 23:42:30", "Session_ID": "V13_20251023_234230", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-23 23:42:30", "Session_ID": "V13_20251023_234230", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-23 23:42:30", "Session_ID": "V13_20251023_234230", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-24 01:12:08", "Session_ID": "V13_20251024_011208", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-24 01:12:08", "Session_ID": "V13_20251024_011208", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-24 01:12:08", "Session_ID": "V13_20251024_011208", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-24 01:12:08", "Session_ID": "V13_20251024_011208", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-24 01:12:08", "Session_ID": "V13_20251024_011208", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-24 01:12:08", "Session_ID": "V13_20251024_011208", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-24 01:12:08", "Session_ID": "V13_20251024_011208", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-24 01:12:08", "Session_ID": "V13_20251024_011208", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-24 01:12:08", "Session_ID": "V13_20251024_011208", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-24 01:12:08", "Session_ID": "V13_20251024_011208", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:18", "Session_ID": "V13_20251024_011318", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-24 01:13:18", "Session_ID": "V13_20251024_011318", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-24 01:13:18", "Session_ID": "V13_20251024_011318", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-24 01:13:18", "Session_ID": "V13_20251024_011318", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:18", "Session_ID": "V13_20251024_011318", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:18", "Session_ID": "V13_20251024_011318", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:18", "Session_ID": "V13_20251024_011318", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:18", "Session_ID": "V13_20251024_011318", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:18", "Session_ID": "V13_20251024_011318", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:18", "Session_ID": "V13_20251024_011318", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:21", "Session_ID": "V13_20251024_011318", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-24 01:13:21", "Session_ID": "V13_20251024_011318", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-24 01:13:32", "Session_ID": "V13_20251024_011332", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-24 01:13:32", "Session_ID": "V13_20251024_011332", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-24 01:13:32", "Session_ID": "V13_20251024_011332", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-24 01:13:32", "Session_ID": "V13_20251024_011332", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:32", "Session_ID": "V13_20251024_011332", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:32", "Session_ID": "V13_20251024_011332", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:33", "Session_ID": "V13_20251024_011332", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:33", "Session_ID": "V13_20251024_011332", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:33", "Session_ID": "V13_20251024_011332", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:33", "Session_ID": "V13_20251024_011332", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-24 01:13:35", "Session_ID": "V13_20251024_011332", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-24 01:13:35", "Session_ID": "V13_20251024_011332", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-24 01:40:31", "Session_ID": "V13_20251024_014031", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-24 01:40:31", "Session_ID": "V13_20251024_014031", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-24 01:40:31", "Session_ID": "V13_20251024_014031", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-24 01:40:31", "Session_ID": "V13_20251024_014031", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-24 01:40:31", "Session_ID": "V13_20251024_014031", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-24 01:40:31", "Session_ID": "V13_20251024_014031", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-24 01:40:31", "Session_ID": "V13_20251024_014031", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-24 01:40:31", "Session_ID": "V13_20251024_014031", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-24 01:40:31", "Session_ID": "V13_20251024_014031", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-24 01:40:31", "Session_ID": "V13_20251024_014031", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-24 01:42:16", "Session_ID": "V13_20251024_011208", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-24 01:42:20", "Session_ID": "V13_20251024_011208", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}
+{"Timestamp": "2025-10-24 02:15:10", "Session_ID": "V13_20251024_021510", "Event": "SESSION_START", "Status": "OK", "Details": "Session initialized."}
+{"Timestamp": "2025-10-24 02:15:10", "Session_ID": "V13_20251024_021510", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeA_Assassins_V13"}
+{"Timestamp": "2025-10-24 02:15:10", "Session_ID": "V13_20251024_021510", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TradeB_Avengers_V13"}
+{"Timestamp": "2025-10-24 02:15:10", "Session_ID": "V13_20251024_021510", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "FABIODOCTRINE"}
+{"Timestamp": "2025-10-24 02:15:10", "Session_ID": "V13_20251024_021510", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERKANEDOCTRINE"}
+{"Timestamp": "2025-10-24 02:15:10", "Session_ID": "V13_20251024_021510", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "MARCODOCTRINE"}
+{"Timestamp": "2025-10-24 02:15:10", "Session_ID": "V13_20251024_021510", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TRADERMAYNEDOCTRINE"}
+{"Timestamp": "2025-10-24 02:15:10", "Session_ID": "V13_20251024_021510", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TANJADOCTRINE"}
+{"Timestamp": "2025-10-24 02:15:10", "Session_ID": "V13_20251024_021510", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "TGCAPITALDOCTRINE"}
+{"Timestamp": "2025-10-24 02:15:10", "Session_ID": "V13_20251024_021510", "Event": "HASH_VERIFIED", "Status": "OK", "Details": "UMARASHRAFDOCTRINE"}
+{"Timestamp": "2025-10-24 08:15:20", "Session_ID": "V13_20251024_021510", "Event": "SESSION_END", "Status": "OK", "Details": "Session completed successfully."}
+{"Timestamp": "2025-10-24 08:15:20", "Session_ID": "V13_20251024_021510", "Event": "AUDIT_SEAL", "Status": "OK", "Details": "sha256=34daf2e442e97041bc015b84ba3468496c4f1d0fdb2f069e1fb98b9a897134a0"}

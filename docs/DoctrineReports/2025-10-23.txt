@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+Doctrine Report - 2025-10-23
+--------------------------------------------------------------------------------
+Mode: Balanced     Blocks: 2   Feed: Paper Feed (PAPER)
+Sharpe Ratio:  0.8765   Win Rate:  80.00 %   Avg DD:  -1.00 %
+Avg Latency:   21.97 ms   Avg Slippage:  1.90 %   Trades: 5
+Adaptive Shift: Assassin Stop USD +0.13 USD
+AI Proposal -> Adjust Assassin Stop USD to 2.63 USD (Sharpe < 1.0 with elevated volatility)
+Commander Verdict -> Pending review
+Performance vs Previous Doctrine: +0.0 %
+Audit Seal: Verified
+--------------------------------------------------------------------------------
+Notes:
+- System operating within expected bands.
+--------------------------------------------------------------------------------
+Next Day Recommendation:
+- Assassin Stop USD -> 2.63 USD :: Sharpe < 1.0 with elevated volatility
+--------------------------------------------------------------------------------

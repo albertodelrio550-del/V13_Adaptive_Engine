@@ -1,0 +1,392 @@
+{
+  "super_safe": {
+    "risk": {
+      "per_trade_max_dd_usd": 2,
+      "session_max_dd_usd": 20,
+      "crashguard_vol_threshold": 3.0
+    },
+    "ladder": {
+      "base_floor_usd": 0.0,
+      "steps": [
+        {
+          "trigger_profit": 10,
+          "lock_fraction": 0.5
+        },
+        {
+          "trigger_profit": 20,
+          "lock_fraction": 0.8
+        },
+        {
+          "trigger_profit": 30,
+          "lock_fraction": 1.0
+        }
+      ]
+    },
+    "balls": [
+      {
+        "id": 1,
+        "role": "private",
+        "side": "long",
+        "capital_frac": 0.01,
+        "entry": {
+          "use_support_resistance": true,
+          "use_pullback": true,
+          "allow_breakout": false,
+          "signal_confirm_bars": 2
+        },
+        "exit": {
+          "tp_usd": 2,
+          "sl_usd": 1,
+          "time_limit_s": 120
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 0.5,
+          "arm_after_profit_usd": 1
+        }
+      },
+      {
+        "id": 6,
+        "role": "specialist",
+        "side": "long",
+        "capital_frac": 0.03,
+        "entry": {
+          "use_support_resistance": true,
+          "use_pullback": true,
+          "allow_breakout": false,
+          "signal_confirm_bars": 2
+        },
+        "exit": {
+          "tp_usd": 5,
+          "sl_usd": 2,
+          "time_limit_s": 300
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 1.0,
+          "arm_after_profit_usd": 2
+        }
+      },
+      {
+        "id": 9,
+        "role": "major",
+        "side": "long",
+        "capital_frac": 0.05,
+        "entry": {
+          "use_support_resistance": true,
+          "use_pullback": true,
+          "allow_breakout": true,
+          "signal_confirm_bars": 1
+        },
+        "exit": {
+          "tp_usd": 8,
+          "sl_usd": 3,
+          "time_limit_s": 600
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 1.5,
+          "arm_after_profit_usd": 3
+        }
+      }
+    ]
+  },
+  "safe": {
+    "risk": {
+      "per_trade_max_dd_usd": 10,
+      "session_max_dd_usd": 80,
+      "crashguard_vol_threshold": 4.0
+    },
+    "ladder": {
+      "base_floor_usd": 0.0,
+      "steps": [
+        {
+          "trigger_profit": 20,
+          "lock_fraction": 0.5
+        },
+        {
+          "trigger_profit": 40,
+          "lock_fraction": 0.7
+        },
+        {
+          "trigger_profit": 60,
+          "lock_fraction": 0.9
+        }
+      ]
+    },
+    "balls": [
+      {
+        "id": 1,
+        "role": "private",
+        "side": "long",
+        "capital_frac": 0.02,
+        "entry": {
+          "use_support_resistance": true,
+          "use_pullback": true,
+          "allow_breakout": false,
+          "signal_confirm_bars": 2
+        },
+        "exit": {
+          "tp_usd": 3,
+          "sl_usd": 2,
+          "time_limit_s": 180
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 1.0,
+          "arm_after_profit_usd": 2
+        }
+      },
+      {
+        "id": 6,
+        "role": "specialist",
+        "side": "long",
+        "capital_frac": 0.05,
+        "entry": {
+          "use_support_resistance": true,
+          "use_pullback": true,
+          "allow_breakout": false,
+          "signal_confirm_bars": 2
+        },
+        "exit": {
+          "tp_usd": 8,
+          "sl_usd": 5,
+          "time_limit_s": 300
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 2.0,
+          "arm_after_profit_usd": 3
+        }
+      },
+      {
+        "id": 9,
+        "role": "major",
+        "side": "long",
+        "capital_frac": 0.1,
+        "entry": {
+          "use_support_resistance": true,
+          "use_pullback": false,
+          "allow_breakout": true,
+          "signal_confirm_bars": 1
+        },
+        "exit": {
+          "tp_usd": 15,
+          "sl_usd": 8,
+          "time_limit_s": 600
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 3.0,
+          "arm_after_profit_usd": 5
+        }
+      }
+    ]
+  },
+  "balanced": {
+    "risk": {
+      "per_trade_max_dd_usd": 50,
+      "session_max_dd_usd": 200,
+      "crashguard_vol_threshold": 5.0
+    },
+    "ladder": {
+      "base_floor_usd": 0.0,
+      "steps": [
+        {
+          "trigger_profit": 10,
+          "lock_fraction": 0.5
+        },
+        {
+          "trigger_profit": 20,
+          "lock_fraction": 0.8
+        },
+        {
+          "trigger_profit": 30,
+          "lock_fraction": 1.0
+        }
+      ]
+    },
+    "balls": [
+      {
+        "id": 1,
+        "role": "private",
+        "side": "long",
+        "capital_frac": 0.02,
+        "entry": {
+          "use_support_resistance": true,
+          "use_pullback": true,
+          "allow_breakout": false,
+          "signal_confirm_bars": 2
+        },
+        "exit": {
+          "tp_usd": 3,
+          "sl_usd": 2,
+          "time_limit_s": 180
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 1.0,
+          "arm_after_profit_usd": 2
+        }
+      },
+      {
+        "id": 6,
+        "role": "specialist",
+        "side": "long",
+        "capital_frac": 0.05,
+        "entry": {
+          "use_support_resistance": true,
+          "use_pullback": true,
+          "allow_breakout": false,
+          "signal_confirm_bars": 2
+        },
+        "exit": {
+          "tp_usd": 8,
+          "sl_usd": 5,
+          "time_limit_s": 300
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 2.0,
+          "arm_after_profit_usd": 3
+        }
+      },
+      {
+        "id": 9,
+        "role": "major",
+        "side": "long",
+        "capital_frac": 0.1,
+        "entry": {
+          "use_support_resistance": true,
+          "use_pullback": false,
+          "allow_breakout": true,
+          "signal_confirm_bars": 1
+        },
+        "exit": {
+          "tp_usd": 15,
+          "sl_usd": 8,
+          "time_limit_s": 600
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 3.0,
+          "arm_after_profit_usd": 5
+        }
+      },
+      {
+        "id": 10,
+        "role": "sniper",
+        "side": "long",
+        "capital_frac": 0.05,
+        "entry": {
+          "use_support_resistance": false,
+          "use_pullback": false,
+          "allow_breakout": true,
+          "signal_confirm_bars": 1
+        },
+        "exit": {
+          "tp_usd": 20,
+          "sl_usd": 10,
+          "time_limit_s": 900
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 4.0,
+          "arm_after_profit_usd": 8
+        }
+      }
+    ]
+  },
+  "aggressive": {
+    "risk": {
+      "per_trade_max_dd_usd": 1000,
+      "session_max_dd_usd": 5000,
+      "crashguard_vol_threshold": 10.0
+    },
+    "ladder": {
+      "base_floor_usd": 0.0,
+      "steps": [
+        {
+          "trigger_profit": 100,
+          "lock_fraction": 0.3
+        },
+        {
+          "trigger_profit": 200,
+          "lock_fraction": 0.6
+        },
+        {
+          "trigger_profit": 300,
+          "lock_fraction": 0.9
+        }
+      ]
+    },
+    "balls": [
+      {
+        "id": 6,
+        "role": "specialist",
+        "side": "long",
+        "capital_frac": 0.5,
+        "entry": {
+          "use_support_resistance": false,
+          "use_pullback": false,
+          "allow_breakout": true,
+          "signal_confirm_bars": 0
+        },
+        "exit": {
+          "tp_usd": 50,
+          "sl_usd": 25,
+          "time_limit_s": 600
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 5.0,
+          "arm_after_profit_usd": 8
+        }
+      },
+      {
+        "id": 9,
+        "role": "major",
+        "side": "long",
+        "capital_frac": 0.8,
+        "entry": {
+          "use_support_resistance": false,
+          "use_pullback": false,
+          "allow_breakout": true,
+          "signal_confirm_bars": 0
+        },
+        "exit": {
+          "tp_usd": 100,
+          "sl_usd": 50,
+          "time_limit_s": 900
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 8.0,
+          "arm_after_profit_usd": 15
+        }
+      },
+      {
+        "id": 10,
+        "role": "sniper",
+        "side": "long",
+        "capital_frac": 0.5,
+        "entry": {
+          "use_support_resistance": false,
+          "use_pullback": false,
+          "allow_breakout": true,
+          "signal_confirm_bars": 0
+        },
+        "exit": {
+          "tp_usd": 150,
+          "sl_usd": 75,
+          "time_limit_s": 1200
+        },
+        "trail": {
+          "enabled": true,
+          "step_usd": 10.0,
+          "arm_after_profit_usd": 20
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Doctrine_Index": {
+    "Version": "V13.0",
+    "Build_ID": "V13.2025.10.20.01",
+    "Last_Updated": "2025-10-20",
+    "Registered_Doctrines": [
+      {
+        "Doctrine_ID": "TradeA_Assassins_V13",
+        "Doctrine_Name": "Assassins_Plan_V13",
+        "Doctrine_Type": "Scalp Operations",
+        "Core_Trade": "Trade A",
+        "File_Name": "Assassins_Plan_V13.json",
+        "Hash_Status": "Pending Verification",
+        "Integration_Modules": {
+          "Feedback_Loop": "V13_DoctrineFeedbackLoop",
+          "Risk": "V13_RiskSentinel",
+          "Telemetry": "V13_TelemetryFusion",
+          "Performance": "V13_PerformanceTracker"
+        }
+      },
+      {
+        "Doctrine_ID": "TradeB_Avengers_V13",
+        "Doctrine_Name": "Avengers_Plan_V13",
+        "Doctrine_Type": "Trend / Runner Operations",
+        "Core_Trade": "Trade B",
+        "File_Name": "Avengers_Plan_V13.json",
+        "Hash_Status": "Pending Verification",
+        "Integration_Modules": {
+          "Feedback_Loop": "V13_DoctrineFeedbackLoop",
+          "Risk": "V13_RiskSentinel",
+          "Telemetry": "V13_TelemetryFusion",
+          "Performance": "V13_PerformanceTracker"
+        }
+      }
+    ],
+    "Integrity_Protocol": {
+      "Hash_List": "Integrity_HashList.md5",
+      "Hash_Type": "MD5",
+      "Auto_Verify_On_Load": true,
+      "Audit_Timestamp": "Auto-updated on /sync"
+    }
+  }
+}
